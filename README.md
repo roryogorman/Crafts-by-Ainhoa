@@ -6,10 +6,11 @@ This project demonstartes the skills and knowledge that I have picked up studyin
 * This website is also being built to market the crafting products created by the 'Crafts by Ainhoa' company. The aim is to give a web presence to the company,
 attract both new customers & those familiar with her work, showcase & sell the merchandise. 
 
-The website is designed to be accessed and viewed on all samrt devices, laptops & PCs.
+The website is designed to be accessed and viewed on all smart devices, laptops & PCs.
 ***
 
 ## User Experience
+
 
 ### User Stories
 

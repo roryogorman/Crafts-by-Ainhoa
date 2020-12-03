@@ -4,7 +4,7 @@ There are two purposes in the creation of this website.
 * This is my Milestone 1 Project which is part of the Code Institute's Full Stack Software Development Diploma course. 
 This project demonstartes the skills and knowledge that I have picked up studying the HTML, CSS & User Centric Frontend Development modules
 * This website is also being built to market the crafting products created by the 'Crafts by Ainhoa' company. The aim is to give a web presence to the company,
-attract both new customers & those familiar with her work, showcase & sell the merchandise. 
+attract both new customers & those familiar with her work, showcase & market the merchandise. 
 
 The website is designed to be accessed and viewed on all smart devices, laptops & PCs.
 ***
@@ -15,7 +15,7 @@ The website is designed to be accessed and viewed on all smart devices, laptops 
 ### User Stories
 #### First Time Users
 * A primary goal of first time users is to be easily able to access the site.
-* The first time user should clearly understand the site & its aims.
+* The first time user should clearly be able to understand the site & its aims.
 * As the first time user is interested in crafting products, the user should be easily able to navigate the site, understand the layout of the site and where to find the desired content.
 
 #### Returning Users

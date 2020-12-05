@@ -54,3 +54,23 @@ body{
     border-color: #5b85aa;
 }
 
+/*---------Footer Styling---------*/
+
+footer {
+    background-color: #fde8e9;
+    color: #404E4D;
+    min-height: 70px;
+    margin: 0;
+}
+
+.footer-subscribe {
+    margin-top: 20px;
+}
+
+footer .btn--charcoal {
+    background-color: #5b85aa;
+    color: white;
+    border-color: #5b85aa;
+    width: 60%;
+    height: 60%;
+}

@@ -12,7 +12,7 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fde8e9">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">Crafts by Ainhoa</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 
                 <!--<li class="nav-item">
@@ -32,20 +32,27 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Shop</a>
                 </li>
-                <button type="button" class="btn btn--cta btn--charcoal btn-sm" data-toggle="modal" data-target="#exampleModal">Join/Sign-In</button>
+                <button type="button" class="btn btn--cta btn--subscribe btn-sm" data-toggle="modal" data-target="#exampleModal">Join/Sign-In</button>
                 </ul>
         </div>
     </nav>
 </header>
 
-<section class="container-fluid">
-    
-    
-        <div>
-            Headline of site, Hero Image Background
+<!--Hero Image-->
+<section class="container-fluid callout-container">
+    <div class="opaque-overlay">&nbsp;
+    </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="callout jumbotron text-center">
+              <h1 class="jumbotron-header">
+                About Me
+              </h1>
+              </div>
+          </div>
         </div>
-    
-
+</section>
+<section>
     
         <div>
             About Me details
@@ -93,31 +100,51 @@
 <footer class="container-fluid">       
     <div id="footer-details" class="row">
         <div class="col-sm-3">
-            <h5 class="uppercase general-sub">Contact Details:</h5>
-            <p class="inline-block">
+            <h5 class="uppercase general-sub contact-headline">Want to get in touch directly?</h5>
+            <p class="inline-block contact-details">
             <i class="far fa-envelope" aria-hidden="true"></i> craftsbyainhoa@gmail.com
             </p>
-            <p class="inline-block">
+            <p class="inline-block contact-details">
             <i class="fas fa-mobile-alt" aria-hidden="true"></i> +353 (0)87 123 4567
             </p>
         
         </div>
             <div class="col-sm-5 btn--cta footer-subscribe">
-               <button type="button" class="btn btn--cta btn--charcoal" data-toggle="modal" data-target="#exampleModal">Join/Sign-In</button> 
+            <h5 class="uppercase general-sub">Subscribe to receive news of our latest products!</h5>
+               <button type="button" class="btn btn--cta btn--subscribe" data-toggle="modal" data-target="#exampleModal">Join/Sign-In</button> 
             </div>
             
             <div class="col-sm-4">
-                <ul class="list-inline social-links">
+            <h5 class="uppercase general-sub">Our Social Media Pages:</h5>
+                <ul class="list-inline social-media">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="www.facebook.com">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="www.twitter.com" target="_blank">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="www.pinterest.com" target="_blank">
+                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="www.ravelry.com" target="_blank">
+                            <i class="fab fa-ravelry" aria-hidden="true"></i>
+                            <span class="sr-only">Ravelry</span>
                         </a>
                     </li>
                 </ul>

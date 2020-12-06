@@ -8,7 +8,6 @@
 
 body{
     font-family: Baskerville, san-serif;
-    color:#404E4D;
 }
 
 /*---------Colour Styling---------*/
@@ -17,11 +16,14 @@ body{
 
 /*---------Navbar Styling---------*/
 .navbar {
+    position: relative;
     min-height: 90px;
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
+    background-color: #989572;
+    color: green;
+    overflow: hidden;
 }
 
 .navbar-brand {
@@ -29,11 +31,13 @@ body{
     width: 10rem;
     font-family: Rochester;
     font-weight: 700;
-    font-size: 220%;
+    font-size: 200%;
+    color: green;
     
 }
 
 .nav-item {
+    color: green;
     font-family: Baskerville, san-serif;
     font-weight: 700;
     font-size: 120%;
@@ -48,29 +52,114 @@ body{
     width: 140px;
 }
 
-.btn--charcoal {
-    background-color: #5b85aa;
+.btn--subscribe {
+    background-color: #e0d8de;
+    color: #4b3b47;
+    border-color: #e0d8de;
+}
+
+.btn--subscribe:hover {
+    background: #6a8e7f;
+}
+
+/*---------Landing Page Hero Image Styling---------*/
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/Landing_Page_Crochet_Image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    background-color: transparent;
     color: white;
-    border-color: #5b85aa;
+    font-family: Rochester;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 /*---------Footer Styling---------*/
 
 footer {
-    background-color: #fde8e9;
-    color: #404E4D;
-    min-height: 70px;
-    margin: 0;
+    background-color: #989572;
+    color: #e0d8de;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px;
+    overflow: hidden;
+}
+
+#footer-details {
+    padding: 10px;
+    height: 100%;
+    font-weight: 500;
+}
+
+.contact-headline {
+    text-align: left;
+}
+
+.contact-details {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 90%;
 }
 
 .footer-subscribe {
-    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-footer .btn--charcoal {
-    background-color: #5b85aa;
-    color: white;
-    border-color: #5b85aa;
-    width: 60%;
-    height: 60%;
+footer .btn--subscribe {
+    background-color: #e0d8de;
+    color: #4b3b47;
+    border-color: #e0d8de;
+    width: 80%;
+    height: 50%;
+    margin: auto;
 }
+
+.social-media {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.social-media li a i {
+    width: 40px;
+    height: 40px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: #4b3b47;
+    background: #e0d8de;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-media li a i:hover {
+    background: #6a8e7f;

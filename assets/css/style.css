@@ -22,28 +22,29 @@ body{
     border: 0;
     width: 100%;
     background-color: #989572;
-    color: green;
     overflow: hidden;
+}
+
+.navbar-light .navbar-brand {
+    color: #e0d8de;
 }
 
 .navbar-brand {
     float: left;
     width: 10rem;
     font-family: Rochester;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 200%;
-    color: green;
-    
 }
 
-.nav-item {
-    color: green;
+.navbar-nav li {
     font-family: Baskerville, san-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 120%;
     display: block;
     float: right;
     margin-right: .5rem;
+    color: #e0d8de;
 }
 
 .btn--cta{
@@ -75,28 +76,52 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-
+    overflow: hidden;
+    margin-bottom: 0;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.2);
-}
-
-.jumbotron {
-    background-color: transparent;
-}
-
-.jumbotron-header {
-    background-color: transparent;
-    color: white;
+.about-me-section {
+    font-size: 130%;
     font-family: Rochester;
+    border-radius: 10%;
+    width: 350px;
+    height: 400px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: rgba(152,149,114, .8);
+    bottom: 210px;
+    left: 100px;
+    position: absolute;
+}
+
+.about-me-title {
+    color: #e0d8de;
     font-weight: bold;
-    margin-bottom: 30px;
+}
+
+.about-me-details {
+    font-family: Baskerville, sans-serif;
+    color: #e0d8de;
+    font-size: 90%;
+}
+
+.shop-now-function {
+    font-size: 130%;
+    font-family: Rochester;
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 100px;
+    background-color: rgba(145,166,255, .8);
+    bottom: 300px;
+    right: 130px;
+    position: absolute;
+    }
+
+.shop-now-function .shop-now-link {
+    color: #f2e9dc;
+    font-weight: bold;
 }
 
 /*---------Footer Styling---------*/
@@ -110,25 +135,26 @@ footer {
     overflow: hidden;
 }
 
+.container-fluid {
+    margin-top: 0;
+}
+
 #footer-details {
     padding: 10px;
-    height: 100%;
+    min-height: fit-content;
     font-weight: 500;
 }
 
-.contact-headline {
-    text-align: left;
-}
-
 .contact-details {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 90%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 100%;
+    display: block;
+    position: relative;
 }
 
 .footer-subscribe {
-    text-align: center;
-    margin-bottom: 10px;
+    text-align: left;
 }
 
 footer .btn--subscribe {
@@ -136,8 +162,9 @@ footer .btn--subscribe {
     color: #4b3b47;
     border-color: #e0d8de;
     width: 80%;
-    height: 50%;
-    margin: auto;
+    height: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .social-media {
@@ -163,3 +190,11 @@ footer .btn--subscribe {
 
 .social-media li a i:hover {
     background: #6a8e7f;
+
+/*---------Media Styling---------*/
+
+@media(min-width: 992px) {               /* Our media query only takes affect when the width of the screen is larger than 992px */
+    .footer-subscribe {
+    display: hidden;
+    }
+}

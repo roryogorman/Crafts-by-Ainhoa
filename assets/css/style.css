@@ -1,19 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Baskerville:100,200,300,400,500,600,700|Rochester:100,200,300,400,500,600,700');
-
 *{
     margin:0;
     padding:0;
     border:0;
 }
-
 body{
     font-family: Baskerville, san-serif;
 }
-
 /*---------Colour Styling---------*/
-
-
-
 /*---------Navbar Styling---------*/
 .navbar {
     position: relative;
@@ -24,11 +18,9 @@ body{
     background-color: #989572;
     overflow: hidden;
 }
-
 .navbar-light .navbar-brand {
     color: #e0d8de;
 }
-
 .navbar-brand {
     float: left;
     width: 10rem;
@@ -36,8 +28,6 @@ body{
     font-weight: bold;
     font-size: 200%;
 }
-
-
 .navbar-nav li {
     font-family: Baskerville, san-serif;
     font-weight: bold;
@@ -47,25 +37,20 @@ body{
     margin-right: .5rem;
     color: #e0d8de;
 }
-
 .btn--cta{
     font-weight: bold;
     border-radius: 25px;
     width: 140px;
 }
-
 .btn--subscribe {
     background-color: #e0d8de;
     color: #4b3b47;
     border-color: #e0d8de;
 }
-
 .btn--subscribe:hover {
     background: #727598;
 }
-
 /*---------Landing Page Hero Image Styling---------*/
-
 .callout-container {
     height: 100vh;
     background: url("../images/Landing_Page_Crochet_Image.jpg") no-repeat center center fixed;
@@ -80,7 +65,6 @@ body{
     overflow: hidden;
     margin-bottom: 0;
 }
-
 .about-me-section {
     color: #e0d8de;
     position: absolute;
@@ -88,28 +72,24 @@ body{
     border-radius: 10%;
     text-align: center;
     padding: 1rem;
-    width: 25%;
+    width: 80%;
     font-size: 115%;
-    left: 150px;
     bottom: 100px;
     overflow: hidden;
     /*height: 450px;*/
 }
-
 .about-me-title {
     font-family: Rochester;
     color: #e0d8de;
     font-weight: bold;
     margin: 10px;
 }
-
 .about-me-details {
     font-family: Baskerville, sans-serif;
     color: #e0d8de;
     font-size: 90%;
     margin: 10px;
 }
-
 .block-divider {
     width: 75px;
     height: 5px;
@@ -117,33 +97,25 @@ body{
     border: 0;
     background-color: #704c5e;
 }
-
 .shop-now-function {
     font-size: 130%;
     font-family: Rochester;
     border-radius: 50%;
     width: 250px;
     height: 250px;
-    padding-top: 65px;
-    padding-left: 85px;
+    /*padding-top: 65px;*/
+    /*padding-left: 85px;*/
     background-color: rgba(114,117,152, .8);
-    bottom: 100px;
-    right: 300px;
-    position: absolute;
     }
-
 .shop-now-link {
     color: #f2e9dc;
     font-weight: bold;
 }
-
 .shop-now-link:hover {
     color: #303036;
     font-weight: bold;
 }
-
 /*---------Footer Styling---------*/
-
 footer {
     background-color: #989572;
     color: #e0d8de;
@@ -152,12 +124,10 @@ footer {
     border-top: 1px;
     overflow: hidden;
 }
-
 .container-fluid {
     padding: 0;
     margin-top: 0;
 }
-
 #footer-contact-details {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -165,11 +135,9 @@ footer {
     font-weight: 500;
     text-align: center;
 }
-
 .contact-header {
     margin-bottom: 0;
 }
-
 .contact-details {
     margin-top: 10px;
     margin-bottom: 50px;
@@ -177,11 +145,9 @@ footer {
     display: block;
     position: relative;
 }
-
 .footer-subscribe {
     text-align: left;
 }
-
 footer .btn--subscribe {
     background-color: #e0d8de;
     color: #4b3b47;
@@ -191,12 +157,10 @@ footer .btn--subscribe {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .social-media {
     margin-top: 1rem;
     position: relative;
 }
-
 .social-media li a i {
     width: 40px;
     height: 40px;
@@ -212,83 +176,55 @@ footer .btn--subscribe {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 .social-media li a i:hover {
     background: rgb(114,117,152);
 }
 /*---------Media Styling---------*/
-
    /*------Mobile Styling-----*/
-@media only screen and (max-width: 580px) {
-      
-    /*.about-me-section {
-        bottom: 40px;
-        right: 100px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 10%;
-        height: 50px;
-    }*/
-
-    .shop-now-function {
-        bottom: 50px;
-        right: 100px;
-        width: 70%;
-        font-size: 130%;
-        font-family: Rochester;
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        padding-top: 40px;
-        padding-left: 100px;
-        background-color: rgba(114,117,152, .8);
-        position: absolute;
-    }
-    
-        footer {
-        text-align: center;
-    }
-
-        .footer-subscribe {
-        display: none;
-    }
-   
-        #footer-contact-details {
-        text-align: center;
-    }    
-}
-
-   /*------Tablet Styling-----*/
-
-@media only screen and (max-width: 780px) {
-    
+@media only screen and (min-width: 764px) {
     .about-me-section {
-        bottom: 40px;
-        right: 40px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 100%;
-        height: 70%;
-    }
-
-    .shop-now-function {
-        bottom: 50px;
-        right: 100px;
-        width: 70%;
-        font-size: 130%;
-        font-family: Rochester;
-        border-radius: 50%;
-        width: 200px;
-        height: 200px;
-        padding-top: 40px;
-        padding-left: 100px;
-        background-color: rgba(114,117,152, .8);
+        color: #e0d8de;
         position: absolute;
+        background-color: rgba(152,149,114, .8);
+        border-radius: 10%;
         text-align: center;
-    }
-
-    
-    #footer-contact-details {
-        text-align: center;
+        padding: 1rem;
+        width: 50%;
+        font-size: 115%;
+        left: 150px;
+        bottom: 100px;
+        overflow: hidden;
+        /*height: 450px;*/
     }
 }
+   /*------Tablet Styling-----*/
+/*@media only screen and (min-width: 780px) {*/
+/*    */
+/*    .about-me-section {*/
+/*        bottom: 40px;*/
+/*        right: 40px;*/
+/*        margin-top: 20px;*/
+/*        margin-bottom: 20px;*/
+/*        width: 100%;*/
+/*        height: 70%;*/
+/*    }*/
+/*    .shop-now-function {*/
+/*        bottom: 50px;*/
+/*        right: 100px;*/
+/*        width: 70%;*/
+/*        font-size: 130%;*/
+/*        font-family: Rochester;*/
+/*        border-radius: 50%;*/
+/*        width: 200px;*/
+/*        height: 200px;*/
+/*        padding-top: 40px;*/
+/*        padding-left: 100px;*/
+/*        background-color: rgba(114,117,152, .8);*/
+/*        position: absolute;*/
+/*        text-align: center;*/
+/*    }*/
+/*    */
+/*    #footer-contact-details {*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/

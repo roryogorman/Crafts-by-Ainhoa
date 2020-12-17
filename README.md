@@ -43,8 +43,8 @@ This page is divided into 4 parts:
     - b. A bilingual option for the page - to toggle the language between English & Spanish. This is done at the owner's request due to nationality and the desire to market in Spain. For the purposes of MS1, while the toggle option is there, the language of the site will be in English only.
     - c. Links to the other pages in the site i.e. 'Gallery' and 'Shop'. Clicking on these links will bring you directly to the page, but in the same browser.
     - d. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
-#### Headline Section:
-- The Headline Section contains a Hero Image which will be a stock image of craftwork materials - wool & yarn. I feel that this is appropriate for the site and gives the viewer a visual of what this site is about. A headline overlaying on this gives the name of the site.
+#### Hero Image Section:
+- The Headline Section contains a Hero Image which will be a stock image of crochet work. In consultation with the subject owner of the site, she feels that this reflects how she crafts.
 #### About Me Section:
 - This section has a brief introduction to the owner of the site, a background & also outlines her products. A 'Shop Now' button will sit here linking through to the Shop page
 #### The Footer Section:
@@ -61,8 +61,8 @@ This page is divided into 3 parts:
     - b. A bilingual option for the page - to toggle the language between English & Spanish. This is done at the owner's request due to nationality and the desire to market in Spain. For the purposes of MS1, while the toggle option is there, the language of the site will be in English only.
     - c. Links to the other pages in the site i.e. 'Home' and 'Shop'. Clicking on these links will bring you directly to the page, but in the same browser.
     - d. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
-#### Collage
-- This section contains a collage of crafts that have been made - this gives the user a visual representation of the products. 
+#### Carousel
+- This section contains a carousel of images of crafts that have been made - this gives the user a visual representation of the products. 
 - A 'Shop Now' button will sit here linking through to the Shop page
 #### The Footer Section:
 - This bar sits at the bottom of the page. Contained in this bar, from left-to-right, are:
@@ -93,21 +93,28 @@ This page is divided into 5 parts:
 ***
 ### Design 
 #### Colour Scheme
-- To reflect the subject matter & aims of the site, I will be using soft, bright colours throughout the site e.g. soft yellows, oranges, purples, etc. I feel that using these shades adds to the attractiveness of the site and is very appropriate.
+- To reflect the subject matter & aims of the site, I will be using soft colours throughout the site e.g. soft yellows, oranges, purples, etc. I feel that using these shades adds to the attractiveness of the site and is very appropriate.
+- The main colour used as a background for the NavBar & Footer is #989572 - a dark grayish yellow whoch I feel suits the pupose of the webiste well, and also blends very well with the background image.
+- Other colours have been chosen which complement the #989572 colour. These are:
+    - a. #E0D8DE: A warm grey colour, used as the text colour
+    - b. #727598: A dark grayish blue colour, used as a colour for the 'Shop Now' button, as well as the hover colour for social media icons. 
 
 #### Typography
-- Two fonts were used primarily for this site - 'Roboto' & 'Lato'. These are two fonts that are commonly used in websites and are both clean, clear & very readable and so I feel are appropriate for this site
-- For the 'Shop Now' buttons, I have used the 'Rochester' font. I feel that it looks artistic & it fits to the overrall feel of the site.
+- Two fonts were used primarily for this site - 'Rochester' & 'Baskerville'. These are two fonts that are commonly used in craft websites and are both clean, clear & very readable and so I feel are appropriate for this site
+- For the 'Site Title' in the NavBar & 'Shop Now' buttons, I have used the 'Rochester' font. I feel that it looks artistic & it fits to the overrall feel of the site.
 - From researching other leading craft websites e.g. lovecrafts.com & mookko.co.uk, these sites use typography such as these throughout which makes their sites look very attractive.
 
 #### Imagery
-
+For a site that will be primarily used to sell the merchandise of the vendor, imagery is hugely important - having a visual site with just the necessary commentary is usual practice for site such as this.
+As such, I have used stock imagery for background 'hero' images on each page and have used images of products already created by the vendor in the Gallery tab. This gives the viewer a clear visual representation of the subject matter, aims and purposes of this site.
 
 ### Wireframes
 
 ***
 
 ## Features
+- The site is designed to be responsive on all devices - mobile phones, tablets, desktops, etc.
+
 
 ***
 
@@ -115,16 +122,33 @@ This page is divided into 5 parts:
 
 ### Languages
 
-* HTML
-* CSS3
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - the main structures of this website were coded using HTML5
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) - the styling of this website has been coded using CSS3
 
 ### Frameworks, Libraires & Programs Used
-
+* [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - This was used to assist with the responsiveness and styling of the website
+* [Google Fonts](https://fonts.google.com/)
+    - I used this to import the Baskerville & Rochester Fonts 
+* [Font Awesome](https://use.fontawesome.com/releases/v5.0.10/css/all.css)
+    - The Social Media icons on each page were imported from this library
+* [Github](https://github.com/roryogorman/Crafts-by-Ainhoa)
+    - Repository Hosting Service for files used for this website
+* [Gitpod](https://gitpod.io/workspaces/)
+     - The IDE used for coding & the creation of the source files. These files are committed & pushed from here to Github
+* [Git](https://git-scm.com/)
+    - The version control used to commit & push to GitHub.
+* [Balsamiq](https://balsamiq.com/)
+    - Wireframes for the site were created on Balsamiq
 
 ***
 
 ## Testing
 
+
+***
+
+## Bugs
 
 ***
 

@@ -140,6 +140,12 @@ As such, I have used stock imagery for background 'hero' images on each page and
     - The version control used to commit & push to GitHub.
 * [Balsamiq](https://balsamiq.com/)
     - Wireframes for the site were created on Balsamiq
+* [Coverr](https://coverr.co/)
+    - Background 'Hero' Images on the three pages of the site were sourced from this website
+* [Coolors](https://coolors.co/)
+    - This site was used to source the colour pallette throughout the website
+* [ColorHexa](https://colorhexa.com)
+    - This site was used to discover complementary colours used throughout this site
 
 ***
 

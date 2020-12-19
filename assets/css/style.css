@@ -7,7 +7,7 @@
 body{
     font-family: Baskerville, san-serif;
 }
-/*---------Colour Styling---------*/
+
 /*---------Navbar Styling---------*/
 .navbar {
     position: relative;
@@ -50,6 +50,7 @@ body{
 .btn--subscribe:hover {
     background: #727598;
 }
+
 /*---------Landing Page Hero Image Styling---------*/
 .callout-container {
     height: 100vh;
@@ -121,6 +122,86 @@ body{
     color: #303036;
     font-weight: bold;
 }
+
+/*---------Shop Page Styling---------*/
+
+/*.shop-container {
+    height: 100vh;
+    background: url("../images/Shop_Page_Background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}*/
+
+.table-header {
+    font-family: Rochester;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.table-section-styling {
+    clear: left;
+    color: #e0d8de;
+    font-family: Baskerville;
+    font-weight: 400;
+    background-color: rgba(152,149,114, .8);
+    border-radius: 5%;
+    margin: 1rem;
+    padding: 0;
+    font-size: 100%;
+    line-height: 15px;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+}
+
+.user-review-header {
+    font-family: Rochester;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+.user-review-styling {
+    clear: left;
+    color: #e0d8de;
+    font-family: Baskerville;
+    font-weight: 400;
+    background-color: rgba(149,114,152, .8);
+    border-radius: 5%;
+    margin-bottom: 6rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    font-size: 80%;
+    line-height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.order-form-styling {
+    clear: right;
+    align-items: center;
+    color: #e0d8de;
+    font-family: Baskerville;
+    font-weight: 700;
+    background-color: rgba(149,114,152, .8);
+    border-radius: 5%;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    padding: 1rem;
+    font-size: 90%;
+    position: relative;
+    overflow: hidden;
+}
+
 /*---------Footer Styling---------*/
 footer {
     background-color: #989572;

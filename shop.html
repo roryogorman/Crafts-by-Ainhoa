@@ -14,6 +14,8 @@
     <title>Crafts by Ainhoa</title>
 </head>
 <body>
+
+<!--Navbar-->
 <div class="container-fluid">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -43,19 +45,135 @@
             </div>
         </nav>
     </header>
-    <!--Price List Section-->
-        <div>
-            Background Image
+    <div class="container-fluid">
+    <!--Background Image-->
+        <div class="shop-container">
+        
+    <!--Price List-->
+        <div class="row no-gutters">
+            <div class="col-5">
+                <table class="table table-borderless table-section-styling">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col" class="table-header">Price List</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Price (from)</th>
+                            <th scope="col">Product</th>
+                            <th scope="col">Price (from)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Blankets</th>
+                            <td>€80</td>
+                            <th scope="row">Coats & Jackets</th>
+                            <td>€50</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Bathroom Ware</th>
+                            <td>€10</td>
+                            <th scope="row">Hats</th>
+                            <td>€15</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Tablemats</th>
+                            <td>€10</td>
+                            <th scope="row">Scarves</th>
+                            <td>€15</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Coaster Set</th>
+                            <td>€10</td>
+                            <th scope="row">Handbags</th>
+                            <td>€30</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Holiday Decorations</th>
+                            <td>€20</td>
+                            <th scope="row">Toys</th>
+                            <td>€25</td>
+                        </tr>
+                        </tbody>
+                </table>
+            </div>
+        
+
+        <!--Order Form Section-->
+        <div class="col-6 d-flex justify-content-center order-form-styling">
+            <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Address</label>
+                <input type="text" class="form-control" id="inputAddress">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                <label for="inputCounty">County</label>
+                <input type="text" class="form-control" id="inputCounty">
+                </div>
+                <div class="form-group col-md-4">
+                <label for="inputZip">Postcode</label>
+                <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="form-group col-md-5">
+                <label for="inputCountry">Country</label>
+                <input type="text" class="form-control" id="inputCountry">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="additionalComments">Product Requests</label>
+                <textarea class="form-control" id="productRequests" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn--cta btn--subscribe">Checkout</button>
+            </form>
         </div>
-        <div class="container">
-            Price List
         </div>
-        <div class="container">
-            User Reviews
+        
+
+        <!--User Reviews-->
+        <div class="row">
+            <div class="col-5 user-review-styling">
+                <h5 class="uppercase user-review-header">Reviews:</h5>
+                <blockquote class="blockquote">
+                  <p>
+                    "Thank you so much Ainhoa. The blanket I ordered came exactly as advertised & is of the highest quality - keeping me warm in these cold winter nights!"
+                  </p>
+                  <p><i>- Linda, Dublin</i></p>
+                </blockquote>
+                <br>
+                <blockquote class="blockquote">
+                  <p>
+                    "I've been searching high & low for a unique hat design - I'm so happy with what you crocheted for me. Great value and I highly recommend a purchase here!"
+                  </p>
+                  <p><i>- Rory, Dublin</i></p>
+                </blockquote>
+                <br>
+                <blockquote class="blockquote">
+                  <p>
+                    "I'm in love with the scarf I ordered from Crafts with Ainhoa. Fantastic service, prompt delivery (considering I am in Germany) & its artisan design means its the talk of my friends & family!"
+                  </p>
+                  <p><i>- Anita, Frankfurt</i></p>
+                </blockquote>
+                <br>
+            </div>
         </div>
-        <div class="form">
-            Order Form
-        </div>
+    </div>
+   </div>     
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
@@ -86,7 +204,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign-In</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Join/Sign-In</button>
                 </div>
             </div>
         </div>

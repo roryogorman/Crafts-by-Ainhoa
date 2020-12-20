@@ -69,7 +69,7 @@ body{
 .about-me-section {
     clear: left;
     color: #e0d8de;
-    background-color: rgba(152,149,114, .8);
+    background-color: rgba(152,149,114, .85);
     border-radius: 10%;
     text-align: center;
     padding: 1rem;
@@ -109,7 +109,7 @@ body{
     height: 15rem;
     display: flex;
     align-items: center;
-    background-color: rgba(114,117,152, .8);
+    background-color: rgba(114,117,152, .85);
     }
 
 .shop-now-link {
@@ -125,13 +125,8 @@ body{
 
 /*---------Shop Page Styling---------*/
 
-.price-container {
-    padding: 5px;
-    position: relative;
-}
-
 .shop-container {
-    height: 100vh;
+    height: 130vh;
     background: url("../images/Shop_Page_Background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -152,20 +147,12 @@ body{
 }
 
 .table-section-styling {
-    clear: left;
-    color: #e0d8de;
-    font-family: Baskerville;
-    font-weight: 400;
-    background-color: rgba(152,149,114, .8);
     border-radius: 5%;
     margin: 1rem;
-    padding: 0;
-    align-items: center;
-    font-size: 100%;
-    line-height: 15px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+    padding: 1rem;
+    background-color: rgba(152,149,114, .85);
+    color: #e0d8de;
+    width: 80%;
 }
 
 .user-review-header {
@@ -181,10 +168,10 @@ body{
     color: #e0d8de;
     font-family: Baskerville;
     font-weight: 400;
-    background-color: rgba(149,114,152, .8);
+    background-color: rgba(149,114,152, .85);
     border-radius: 5%;
-    margin-bottom: 6rem;
-    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
     padding: 1rem;
     font-size: 80%;
     line-height: 1.5rem;
@@ -199,14 +186,15 @@ body{
     color: #e0d8de;
     font-family: Baskerville;
     font-weight: 700;
-    background-color: rgba(149,114,152, .8);
+    background-color: rgba(114,136,152, .85);
     border-radius: 5%;
     margin-top: 1rem;
-    margin-left: 4rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
     font-size: 90%;
     position: relative;
     overflow: hidden;
+    width: 80%;
 }
 
 /*---------Footer Styling---------*/
@@ -247,6 +235,7 @@ footer {
 
 .footer-subscribe {
     text-align: center;
+    display: none;
 }
 
 footer .btn--subscribe {
@@ -289,7 +278,22 @@ footer .btn--subscribe {
 
    /*------Desktop & Larger Media Styling-----*/
 @media only screen and (min-width: 992px) {
-   
+    .order-form-styling {
+        clear: right;
+        align-items: center;
+        color: #e0d8de;
+        font-family: Baskerville;
+        font-weight: 700;
+        background-color: rgba(114,136,152, .85);
+        border-radius: 5%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        font-size: 90%;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+}
 } 
 /*------Tablet Styling-----*/
 @media only screen and (max-width: 780px) {
@@ -309,7 +313,6 @@ footer .btn--subscribe {
     .social-media {
     margin-top: 1rem;
     position: relative;
-    width: 80%;
     text-align: center;
 }
 
@@ -320,7 +323,11 @@ footer .btn--subscribe {
     position: relative;
 
 }
+    .shop-container {
+        height: 375vh;
+    }
 
+    
 }
 
 /*------Mobile Styling-----*/

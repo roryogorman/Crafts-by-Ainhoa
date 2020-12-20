@@ -125,7 +125,12 @@ body{
 
 /*---------Shop Page Styling---------*/
 
-/*.shop-container {
+.price-container {
+    padding: 5px;
+    position: relative;
+}
+
+.shop-container {
     height: 100vh;
     background: url("../images/Shop_Page_Background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -138,7 +143,7 @@ body{
     position: relative;
     overflow: hidden;
     margin-bottom: 0;
-}*/
+}
 
 .table-header {
     font-family: Rochester;
@@ -155,9 +160,10 @@ body{
     border-radius: 5%;
     margin: 1rem;
     padding: 0;
+    align-items: center;
     font-size: 100%;
     line-height: 15px;
-    width: 80%;
+    width: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -184,6 +190,7 @@ body{
     line-height: 1.5rem;
     position: relative;
     overflow: hidden;
+    width: 80%;
 }
 
 .order-form-styling {

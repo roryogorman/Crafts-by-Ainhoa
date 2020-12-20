@@ -14,7 +14,7 @@
     <title>Crafts by Ainhoa</title>
 </head>
 <body>
-
+<div class="container-fluid">
 <!--Navbar-->
 <div class="container-fluid">
     <header>
@@ -45,21 +45,18 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid">
+    </div>
+    
+    <!--Main Body of Page-->
     <!--Background Image-->
-        <div class="shop-container">
-        
+    <div class="shop-container">
+    
     <!--Price List-->
+        <div class="container">
         <div class="row no-gutters">
-            <div class="col-5">
+            <div class="col-5 d-flex">
                 <table class="table table-borderless table-section-styling">
                     <thead>
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col" class="table-header">Price List</th>
-                            <th scope="col"></th>
-                            <th scope="col"></th>
-                        </tr>
                         <tr>
                             <th scope="col">Product</th>
                             <th scope="col">Price (from)</th>
@@ -101,10 +98,12 @@
                         </tbody>
                 </table>
             </div>
-        
-
+        </div>
+        </div>
+    
         <!--Order Form Section-->
-        <div class="col-6 d-flex justify-content-center order-form-styling">
+        <div class="container">
+        <div class="col-7 d-flex justify-content-center order-form-styling">
             <form>
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -134,18 +133,41 @@
                 <input type="text" class="form-control" id="inputCountry">
                 </div>
             </div>
+            <div class="form-row">
+                <div class="form-group col-md-1">
+                <label for="inputQuantity">Qty</label>
+                <input type="text" class="form-control" id="inputQuantity">
+                </div>
+                <div class="form-group col-md-4">
+                <label for="inputProduct">Product</label>
+                <select id="inputProduct" class="form-control">
+                <option selected>Choose...</option>
+                <option>Bathroom Ware</option>
+                <option>Blankets</option>
+                <option>Coaster Set</option>
+                <option>Coats</option>
+                <option>Handbags</option>
+                <option>Hats</option>
+                <option>Holiday Decorations</option>
+                <option>Jackets</option>
+                <option>Scarves</option>
+                <option>Table Placemats</option>
+                <option>Toys</option>
+                </select>
+                </div>
+            </div>
             <div class="form-group">
-                <label for="additionalComments">Product Requests</label>
-                <textarea class="form-control" id="productRequests" rows="3"></textarea>
+                <label for="additionalComments">Additional Comments</label>
+                <textarea class="form-control" id="inputAdditionalComments" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn--cta btn--subscribe">Checkout</button>
             </form>
         </div>
         </div>
-        
 
-        <!--User Reviews-->
-        <div class="row">
+        <!--User Reviews Section-->
+        <div class="container">
+            <div class="row">
             <div class="col-5 user-review-styling">
                 <h5 class="uppercase user-review-header">Reviews:</h5>
                 <blockquote class="blockquote">
@@ -172,7 +194,8 @@
             </div>
         </div>
     </div>
-   </div>     
+    </div>
+</div>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -263,7 +286,7 @@
             </div>
     </div>
     </footer>
-</div>
+    
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

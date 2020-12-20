@@ -16,8 +16,8 @@
 <body>
 <div class="container-fluid">
 <!--Navbar-->
-<div class="container-fluid">
     <header>
+        <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.html">Crafts by Ainhoa</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -44,17 +44,15 @@
                 </ul>
             </div>
         </nav>
+        </div>
     </header>
     </div>
     
     <!--Main Body of Page-->
     <!--Background Image-->
-    <div class="shop-container">
-    
-    <!--Price List-->
-        <div class="container">
-        <div class="row no-gutters">
-            <div class="col-5 d-flex">
+    <div class="container-fluid shop-container">
+        <div class="row">
+            <div class="col-10 col-sm-5 col-lg-3 mx-auto">
                 <table class="table table-borderless table-section-styling">
                     <thead>
                         <tr>
@@ -98,78 +96,10 @@
                         </tbody>
                 </table>
             </div>
-        </div>
-        </div>
-    
-        <!--Order Form Section-->
-        <div class="container">
-        <div class="col-7 d-flex justify-content-center order-form-styling">
-            <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="inputName">Name</label>
-                <input type="text" class="form-control" id="inputName">
-            </div>
-            <div class="form-group">
-                <label for="inputAddress2">Address</label>
-                <input type="text" class="form-control" id="inputAddress">
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-3">
-                <label for="inputCounty">County</label>
-                <input type="text" class="form-control" id="inputCounty">
-                </div>
-                <div class="form-group col-md-4">
-                <label for="inputZip">Postcode</label>
-                <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="form-group col-md-5">
-                <label for="inputCountry">Country</label>
-                <input type="text" class="form-control" id="inputCountry">
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-1">
-                <label for="inputQuantity">Qty</label>
-                <input type="text" class="form-control" id="inputQuantity">
-                </div>
-                <div class="form-group col-md-4">
-                <label for="inputProduct">Product</label>
-                <select id="inputProduct" class="form-control">
-                <option selected>Choose...</option>
-                <option>Bathroom Ware</option>
-                <option>Blankets</option>
-                <option>Coaster Set</option>
-                <option>Coats</option>
-                <option>Handbags</option>
-                <option>Hats</option>
-                <option>Holiday Decorations</option>
-                <option>Jackets</option>
-                <option>Scarves</option>
-                <option>Table Placemats</option>
-                <option>Toys</option>
-                </select>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="additionalComments">Additional Comments</label>
-                <textarea class="form-control" id="inputAdditionalComments" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn--cta btn--subscribe">Checkout</button>
-            </form>
-        </div>
-        </div>
 
-        <!--User Reviews Section-->
-        <div class="container">
-            <div class="row">
-            <div class="col-5 user-review-styling">
-                <h5 class="uppercase user-review-header">Reviews:</h5>
+            <div class="col-10 col-sm-5 col-lg-3 mx-auto user-review-styling">
+                <h2 class="uppercase user-review-header">Customer Reviews:</h2>
+                <br>
                 <blockquote class="blockquote">
                   <p>
                     "Thank you so much Ainhoa. The blanket I ordered came exactly as advertised & is of the highest quality - keeping me warm in these cold winter nights!"
@@ -192,10 +122,74 @@
                 </blockquote>
                 <br>
             </div>
+
+            <div class="col-10 col-sm-5 col-lg-3 mx-auto justify-content-center order-form-styling">
+                <h2 class="user-review-header">Order Form</h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address</label>
+                        <input type="text" class="form-control" id="inputAddress">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                        <label for="inputCounty">County</label>
+                        <input type="text" class="form-control" id="inputCounty">
+                        </div>
+                        <div class="form-group col-md-4">
+                        <label for="inputZip">Postcode</label>
+                        <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="form-group col-md-5">
+                        <label for="inputCountry">Country</label>
+                        <input type="text" class="form-control" id="inputCountry">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-1">
+                        <label for="inputQuantity">Qty</label>
+                        <input type="text" class="form-control" id="inputQuantity">
+                        </div>
+                        <div class="form-group col-md-4">
+                        <label for="inputProduct">Product</label>
+                        <select id="inputProduct" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Bathroom Ware</option>
+                        <option>Blankets</option>
+                        <option>Coaster Set</option>
+                        <option>Coats</option>
+                        <option>Handbags</option>
+                        <option>Hats</option>
+                        <option>Holiday Decorations</option>
+                        <option>Jackets</option>
+                        <option>Scarves</option>
+                        <option>Table Placemats</option>
+                        <option>Toys</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="additionalComments">Additional Comments</label>
+                        <textarea class="form-control" id="inputAdditionalComments" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--cta btn--subscribe">Checkout</button>
+                </form>
+            </div>
+
         </div>
     </div>
-    </div>
-</div>
+
+
+
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

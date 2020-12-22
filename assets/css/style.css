@@ -51,7 +51,7 @@ body{
     background: #727598;
 }
 
-/*---------Landing Page Hero Image Styling---------*/
+/*---------Landing Page Styling---------*/
 .callout-container {
     height: 100vh;
     background: url("../images/Landing_Page_Crochet_Image.jpg") no-repeat center center fixed;
@@ -66,6 +66,7 @@ body{
     overflow: hidden;
     margin-bottom: 0;
 }
+
 .about-me-section {
     clear: left;
     color: #e0d8de;
@@ -126,7 +127,7 @@ body{
 /*---------Shop Page Styling---------*/
 
 .shop-container {
-    height: 130vh;
+    height: 175vh;
     background: url("../images/Shop_Page_Background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -276,27 +277,51 @@ footer .btn--subscribe {
 
 /*---------Media Styling---------*/
 
-   /*------Desktop & Larger Media Styling-----*/
-@media only screen and (min-width: 992px) {
-    .order-form-styling {
-        clear: right;
-        align-items: center;
-        color: #e0d8de;
-        font-family: Baskerville;
-        font-weight: 700;
-        background-color: rgba(114,136,152, .85);
-        border-radius: 5%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        font-size: 90%;
-        position: relative;
-        overflow: hidden;
-        width: 100%;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .footer-subscribe {
+        display: inline;
+    }
+
+    .about-me-section {
+    color: #e0d8de;
+    position: absolute;
+    background-color: rgba(152,149,114, .8);
+    border-radius: 10%;
+    text-align: center;
+    padding: 1rem;
+    width: 50%;
+    height: 90%;
+    font-size: 125%;
+    bottom: 40px;
+    overflow: hidden;
 }
-} 
-/*------Tablet Styling-----*/
-@media only screen and (max-width: 780px) {
+
+    .shop-container {
+        height: 130vh;
+}
+
+    .shop-now-function {
+    clear: both;
+    font-size: 30%;
+    font-family: Rochester;
+    justify-content: center;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(114,117,152, .8);
+    }
+
+    .shop-now-link {
+    color: #f2e9dc;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
     .about-me-section {
     clear: left;
     color: #e0d8de;
@@ -324,46 +349,31 @@ footer .btn--subscribe {
 
 }
     .shop-container {
-        height: 375vh;
+        height: 300vh;
     }
-
-    
 }
 
-/*------Mobile Styling-----*/
-@media only screen and (max-width: 580px) {
-    .footer-subscribe {
-        display: none;
-    }
-
-    .about-me-section {
-    color: #e0d8de;
-    position: absolute;
-    background-color: rgba(152,149,114, .8);
-    border-radius: 10%;
-    text-align: center;
-    padding: 1rem;
-    width: 90vw;
-    height: 80vh;
-    font-size: 100%;
-    bottom: 100px;
-    overflow: hidden;
-}
-    .shop-now-function {
-    clear: both;
-    font-size: 30%;
-    font-family: Rochester;
-    justify-content: center;
-    border-radius: 50%;
-    width: 50vw;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    background-color: rgba(114,117,152, .8);
-    }
-
-    .shop-now-link {
-    color: #f2e9dc;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .order-form-styling {
+        clear: right;
+        align-items: center;
+        color: #e0d8de;
+        font-family: Baskerville;
+        font-weight: 700;
+        background-color: rgba(114,136,152, .85);
+        border-radius: 5%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        font-size: 90%;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
 }
 
+.shop-container {
+    height: 150vh;
 }
+
+} 

@@ -127,7 +127,7 @@ body{
 /*---------Shop Page Styling---------*/
 
 .shop-container {
-    height: 175vh;
+    height: 375vh;
     background: url("../images/Shop_Page_Background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -141,19 +141,30 @@ body{
     margin-bottom: 0;
 }
 
-.table-header {
+.price-header {
     font-family: Rochester;
     font-weight: 700;
-    font-size: 150%;
+    font-size: 100%;
+    text-align: center;
+    background-color: rgba(152,149,114, .85);
+    color: #e0d8de;
+    border-radius: 5%;
+}
+
+.price-container {
+    background-color: rgba(152,149,114, .85);
+    color: #e0d8de;
+    border-radius: 5%;
+    width: 100%;
 }
 
 .table-section-styling {
-    border-radius: 5%;
-    margin: 1rem;
-    padding: 1rem;
+    font-family: Baskerville;
+    font-weight: 600;
+    font-size: 100%;
+    text-align: center;
     background-color: rgba(152,149,114, .85);
     color: #e0d8de;
-    width: 80%;
 }
 
 .user-review-header {
@@ -170,32 +181,34 @@ body{
     font-family: Baskerville;
     font-weight: 400;
     background-color: rgba(149,114,152, .85);
-    border-radius: 5%;
+    border-radius: 2%;
     margin-bottom: 1rem;
-    margin-left: 2rem;
-    padding: 1rem;
+    margin-left: 20px;
+    padding: 1.1rem;
     font-size: 80%;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     position: relative;
     overflow: hidden;
-    width: 80%;
+    width: 19.3rem;
+    left: 2px;
+    top: 0rem;
 }
 
 .order-form-styling {
-    clear: right;
+    /* clear: right; */
     align-items: center;
     color: #e0d8de;
     font-family: Baskerville;
     font-weight: 700;
     background-color: rgba(114,136,152, .85);
-    border-radius: 5%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 2rem;
+    border-radius: 2%;
+    padding: 10px;
     font-size: 90%;
     position: relative;
     overflow: hidden;
-    width: 80%;
+    width: 19.5rem;
+    left: 0rem;
+    top: 0rem;
 }
 
 /*---------Footer Styling---------*/
@@ -277,51 +290,42 @@ footer .btn--subscribe {
 
 /*---------Media Styling---------*/
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .footer-subscribe {
-        display: inline;
-    }
-
-    .about-me-section {
-    color: #e0d8de;
-    position: absolute;
-    background-color: rgba(152,149,114, .8);
-    border-radius: 10%;
-    text-align: center;
-    padding: 1rem;
-    width: 50%;
-    height: 90%;
-    font-size: 125%;
-    bottom: 40px;
-    overflow: hidden;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .order-form-styling {
+        clear: right;
+        align-items: center;
+        color: #e0d8de;
+        font-family: Baskerville;
+        font-weight: 700;
+        background-color: rgba(114,136,152, .85);
+        border-radius: 5%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        font-size: 90%;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
 }
 
     .shop-container {
-        height: 130vh;
+        height: 260vh;
 }
 
-    .shop-now-function {
-    clear: both;
-    font-size: 30%;
-    font-family: Rochester;
-    justify-content: center;
-    border-radius: 50%;
-    width: 15rem;
-    height: 15rem;
-    display: flex;
-    align-items: center;
-    background-color: rgba(114,117,152, .8);
+    .table-section-styling {
+        left: -7rem;
+        top: 1rem;
     }
 
-    .shop-now-link {
-    color: #f2e9dc;
+    .user-review-styling {
+    left: -13rem;
+    top: 1rem;      
 }
-
-}
+} 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .about-me-section {
     clear: left;
     color: #e0d8de;
@@ -349,31 +353,151 @@ footer .btn--subscribe {
 
 }
     .shop-container {
-        height: 300vh;
+        height: 378vh;
+    }
+
+    .table-section-styling {
+    font-family: Baskerville;
+    font-weight: 600;
+    font-size: 100%;
+    text-align: center;
+    background-color: rgba(152,149,114, .85);
+    color: #e0d8de;
+    border-radius: 2%;
+    width: 17.5rem;
+
+    }
+
+    .order-form-styling {
+    /* clear: right; */
+    align-items: center;
+    color: #e0d8de;
+    font-family: Baskerville;
+    font-weight: 700;
+    background-color: rgba(114,136,152, .85);
+    border-radius: 5%;
+    padding: 10px;
+    font-size: 90%;
+    position: relative;
+    overflow: hidden;
+    width: 19.5rem;
+    left: 0rem;
+    top: 0rem;
+}
+
+    .user-review-styling {
+    clear: left;
+    color: #e0d8de;
+    font-family: Baskerville;
+    font-weight: 400;
+    background-color: rgba(149,114,152, .85);
+    border-radius: 2%;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    padding: 1.1rem;
+    font-size: 80%;
+    line-height: 1.3rem;
+    position: relative;
+    overflow: hidden;
+    width: 19.3rem;
+    left: 10px;
+    top: 0rem;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .footer-subscribe {
+        display: inline;
+    }
+
+    .about-me-section {
+    color: #e0d8de;
+    position: absolute;
+    background-color: rgba(152,149,114, .8);
+    border-radius: 10%;
+    text-align: center;
+    padding: 1rem;
+    width: 50%;
+    height: 90%;
+    font-size: 125%;
+    bottom: 40px;
+    overflow: hidden;
+}
+
+    .shop-now-function {
+    clear: both;
+    font-size: 30%;
+    font-family: Rochester;
+    justify-content: center;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(114,117,152, .8);
+    }
+
+    .shop-now-link {
+    color: #f2e9dc;
+}
+
+    .shop-container {
+        height: 310vh;
+    }
+
+   .table-section-styling {
+    font-family: Baskerville;
+    font-weight: 600;
+    font-size: 100%;
+    text-align: center;
+    background-color: rgba(152,149,114, .85);
+    color: #e0d8de;
+    border-radius: 2%;
+}
+
+    .user-review-styling {
+    clear: left;
+    color: #e0d8de;
+    font-family: Baskerville;
+    font-weight: 400;
+    background-color: rgba(149,114,152, .85);
+    border-radius: 2%;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    padding: 1.1rem;
+    font-size: 80%;
+    line-height: 1.3rem;
+    position: relative;
+    overflow: hidden;
+    width: 19.3rem;
+    left: 7px;
+    top: 0rem;
+}
+
+ .order-form-styling {
+    /* clear: right; */
+    align-items: center;
+    color: #e0d8de;
+    font-family: Baskerville;
+    font-weight: 700;
+    background-color: rgba(114,136,152, .85);
+    border-radius: 2%;
+    padding: 10px;
+    font-size: 90%;
+    position: relative;
+    overflow: hidden;
+    width: 19.5rem;
+    left: 0.5rem;
+    top: 0rem;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 599px and below) */
+@media only screen and (max-width: 599px) {
+    .shop-container {
+        height: 280vh;
     }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .order-form-styling {
-        clear: right;
-        align-items: center;
-        color: #e0d8de;
-        font-family: Baskerville;
-        font-weight: 700;
-        background-color: rgba(114,136,152, .85);
-        border-radius: 5%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        font-size: 90%;
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-}
-
-.shop-container {
-    height: 150vh;
-}
-
-} 

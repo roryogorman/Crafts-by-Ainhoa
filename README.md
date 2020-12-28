@@ -98,6 +98,7 @@ This page is divided into 5 parts:
 - Other colours have been chosen which complement the #989572 colour. These are:
     - a. #E0D8DE: A warm grey colour, used as the text colour
     - b. #727598: A dark grayish blue colour, used as a colour for the 'Shop Now' button, as well as the hover colour for social media icons. 
+    - c. #957298: A dark grayish magenta colour, used as a background for the User Review section.
 
 #### Typography
 - Two fonts were used primarily for this site - 'Rochester' & 'Baskerville'. These are two fonts that are commonly used in craft websites and are both clean, clear & very readable and so I feel are appropriate for this site
@@ -146,15 +147,144 @@ As such, I have used stock imagery for background 'hero' images on each page and
     - This site was used to source the colour pallette throughout the website
 * [ColorHexa](https://colorhexa.com)
     - This site was used to discover complementary colours used throughout this site
+* Chrome Developer Tools 
+    - This tool was used to ensure correct moble responsiveness, as well as the formatting of the various elements of the site
 
 ***
 
 ## Testing
+### Testing has been carried out throughout the site to confirm the anticipated, expected results. Details are:
+### 1. Landing Page
+#### Navbar Section:
+    - Home: This should be bolded as this is the current page. Test Successful.
+            * Clicking on 'Home' should result in the user staying on this page. Test Successful.
+    - Gallery: This should be unbolded as this is not the current page. Test Successful.
+            * Clicking on 'Gallery' should navigate the user to the 'Gallery' page. Test Successful.
+    - Shop: This should be unbolded as this is not the current page. Test Successful.
+            * Clicking on 'Shop' should navigate the user to the 'Shop' page. Test Successful.
+    - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
+            * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
+            * Failure to add in email address in correct format should result in a fail message - TBA
+    - Mobile devices:
+
+#### Main Section:
+    - One 'section' centred on the screen giving an introduction to the site.
+    - A 'Shop Now' button - clicking on this will take the user to the 'Shop' page. Test Successful.
+    - Mobile Devices:
+
+#### Footer Section:
+    - Contact Details: 
+            * Phone contact no. & email address should appear on the left side. Test Successful.
+    - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
+            * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
+            * Failure to add in email address in correct format should result in a fail message - TBA
+    - Social Media Links:
+            * The icons for each social media link should darken as the mouse hovers over it. Test Successful.
+            * Clicking on Facebook icon should bring the user to the Facebook page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Facebook's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
+    - Mobile Devices:
+
+### 2. Gallery Page
+#### Navbar Section:
+    - Home: This should be unbolded as this is not the current page. Test Successful.
+            * Clicking on 'Home' should navigate the user to the 'Home' page. Test Successful.
+    - Gallery: This should be bolded as this is the current page. Test Successful.
+            * Clicking on 'Gallery' should result in the user remaining on this page. Test Successful.
+    - Shop: This should be unbolded as this is not the current page. Test Successful.
+            * Clicking on 'Shop' should navigate the user to the 'Shop' page. Test Successful.
+    - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
+            * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
+            * Failure to add in email address in correct format should result in a fail message - TBA
+    - Mobile devices:
+
+#### Main Section:
+    - The main section consists of a 'carousel' of 10 images, automatically scrolling. Test Successful.
+    - Clicking on the bars at the bottom of the carousel allows the user to scroll through the images at their convenience. Test Successful.
+    - Description of the image is given at the bottom of the carousel. Test Successful.
+    - Mobile Devices:
+
+#### Footer Section:
+    - Contact Details: 
+            * Phone contact no. & email address should appear on the left side. Test Successful.
+    - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
+            * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
+            * Failure to add in email address in correct format should result in a fail message - TBA
+    - Social Media Links:
+            * The icons for each social media link should darken as the mouse hovers over it. Test Successful.
+            * Clicking on Facebook icon should bring the user to the Facebook page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Facebook's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
+    - Mobile Devices:
+
+### 3. Shop Page:
+#### Navbar Section:
+    - Home: This should be unbolded as this is not the current page. Test Successful.
+            * Clicking on 'Home' should navigate the user to the 'Home' page. Test Successful.
+    - Gallery: This should be unbolded as this is not the current page. Test Successful.
+            * Clicking on 'Gallery' should result in the user remaining on this page. Test Successful.
+    - Shop: This should be bolded as this is the current page. Test Successful.
+            * Clicking on 'Shop' should result in the user remaining on this page. Test Successful.
+    - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
+            * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
+            * Failure to add in email address in correct format should result in a fail message - TBA
+    - Mobile devices:
+
+#### Order Form:
+    - The user should be able to enter their details of the various sections on the form. Test Successful.
+    - The user email address should be in the standard address format. If not, an alert message should appear. Test Successful.
+    - Mobile Devices:
+
+#### Footer Section:
+    - Contact Details: 
+            * Phone contact no. & email address should appear on the left side. Test Successful.
+    - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
+            * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
+            * Failure to add in email address in correct format should result in a fail message - TBA
+    - Social Media Links:
+            * The icons for each social media link should darken as the mouse hovers over it. Test Successful.
+            * Clicking on Facebook icon should bring the user to the Facebook page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Facebook's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
+            * Clicking on Facebook icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
+    - Mobile Devices:
+
+### Testing of User Stories:
+#### First Time Users
+* A primary goal of first time users is to be easily able to access the site.
+* The first time user should clearly be able to understand the site & its aims.
+* As the first time user is interested in crafting products, the user should be easily able to navigate the site, understand the layout of the site and where to find the desired content.
+
+#### Returning Users
+* Returning Users may wish to examine the site more closely, understand how to contact & interact with the site owners.
+* They may be interested in subscribing to the site & so be kept aware of new products, blogs, etc.
+* They may wish to have increaed interaction with the site owners either through the site or through social media.
+
+#### Frequent Users
+* Frequent Users may be interested in purchasing products.
+* Frequent Users may wish to give reveiws & feedback to the Owners on the functionality of the site.
+
+#### Site Owners
+* The site owners wish to use the site to give a web presence to thier business, showcase their products and selling the merchandise.
+* The site owners wish to have an easy-to-follow site that can be updated regularly with new products, new blogposts, new layouts, etc.
+* The site owners also would like to see clear links between the site and the various social media platforms.  
+
 
 
 ***
 
 ## Bugs
+
+- White space appearing above footer bar.
+- Space between Price List Header & Table on Shop Page.
+- Fonts on Formas not being Baskerville
+- 2 images on the carousel that are shorter than the others & so on mobile, it distorts the footer layout.
+
 
 ***
 
@@ -164,6 +294,9 @@ As such, I have used stock imagery for background 'hero' images on each page and
 ***
 
 ## Credits
+- My mentor Spencer Barriball - whose knowledge, advice, experience & enthusiasm has been of invaluable help throughout this course.
+- Code Institute's Tutor Support, who have taken the time to take me through the concept of Mobile First, an area which I had struggled to come to terms with.
+- The fantastic folk on the 'User Centric Frontend', 'Ask Us Anything' & 'Springboard Sept 2020' Slack Channels who have been of such great help on numerous issues that I have come across in the creation pf this site.
 
 
 ***

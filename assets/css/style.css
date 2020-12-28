@@ -53,7 +53,7 @@ body{
 
 /*---------Landing Page Styling---------*/
 .callout-container {
-    height: 100vh;
+    height: 120vh;
     background: url("../images/Landing_Page_Crochet_Image.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -124,10 +124,26 @@ body{
     font-weight: bold;
 }
 
+/*---------Gallery Page Styling---------*/
+
+.carousel-styling {
+    width: 80%;
+    height: 80%;
+}
+
+.carousel-text {
+    font-family: Baskerville;
+    font-weight: 700;
+    font-size: 125%;
+    background-color: rgba(152,130,114, .7);
+    color: #e0d8de;
+    border-radius: 3%;
+}
+
 /*---------Shop Page Styling---------*/
 
 .shop-container {
-    height: 375vh;
+    height: 200vh;
     background: url("../images/Shop_Page_Background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -144,17 +160,19 @@ body{
 .price-header {
     font-family: Rochester;
     font-weight: 700;
-    font-size: 100%;
+    font-size: 200%;
     text-align: center;
     background-color: rgba(152,149,114, .85);
     color: #e0d8de;
-    border-radius: 5%;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 2%;
 }
 
 .price-container {
     background-color: rgba(152,149,114, .85);
     color: #e0d8de;
-    border-radius: 5%;
+    border-radius: 2%;
     width: 100%;
 }
 
@@ -162,6 +180,7 @@ body{
     font-family: Baskerville;
     font-weight: 600;
     font-size: 100%;
+    border-radius: 2%;
     text-align: center;
     background-color: rgba(152,149,114, .85);
     color: #e0d8de;
@@ -189,9 +208,9 @@ body{
     line-height: 1.3rem;
     position: relative;
     overflow: hidden;
-    width: 19.3rem;
+    /*width: 19.3rem;
     left: 2px;
-    top: 0rem;
+    top: 0rem;*/
 }
 
 .order-form-styling {
@@ -206,9 +225,13 @@ body{
     font-size: 90%;
     position: relative;
     overflow: hidden;
-    width: 19.5rem;
+    /*width: 19.5rem;
     left: 0rem;
-    top: 0rem;
+    top: 0rem;*/
+}
+
+#inputProduct.form-control {
+    font-family: Baskerville;
 }
 
 /*---------Footer Styling---------*/
@@ -249,7 +272,7 @@ footer {
 
 .footer-subscribe {
     text-align: center;
-    display: none;
+    /*display: none;*/
 }
 
 footer .btn--subscribe {
@@ -291,41 +314,42 @@ footer .btn--subscribe {
 /*---------Media Styling---------*/
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
     .order-form-styling {
-        clear: right;
-        align-items: center;
-        color: #e0d8de;
-        font-family: Baskerville;
-        font-weight: 700;
-        background-color: rgba(114,136,152, .85);
-        border-radius: 5%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        font-size: 90%;
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-}
+            clear: right;
+    align-items: center;
+    color: #e0d8de;
+    font-family: Baskerville;
+    font-weight: 700;
+    background-color: rgba(114,136,152, .85);
+    border-radius: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 90%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    top: 0rem;
+    left: -15rem;
+}*/
 
     .shop-container {
-        height: 260vh;
+        height: 170vh;
 }
 
-    .table-section-styling {
-        left: -7rem;
-        top: 1rem;
+    /*.table-section-styling {
+        width: 100%;
     }
 
-    .user-review-styling {
+    /*.user-review-styling {
     left: -13rem;
     top: 1rem;      
 }
-} 
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .about-me-section {
     clear: left;
     color: #e0d8de;
@@ -353,7 +377,7 @@ footer .btn--subscribe {
 
 }
     .shop-container {
-        height: 378vh;
+        height: 135vh;
     }
 
     .table-section-styling {
@@ -364,12 +388,9 @@ footer .btn--subscribe {
     background-color: rgba(152,149,114, .85);
     color: #e0d8de;
     border-radius: 2%;
-    width: 17.5rem;
-
     }
 
     .order-form-styling {
-    /* clear: right; */
     align-items: center;
     color: #e0d8de;
     font-family: Baskerville;
@@ -380,9 +401,6 @@ footer .btn--subscribe {
     font-size: 90%;
     position: relative;
     overflow: hidden;
-    width: 19.5rem;
-    left: 0rem;
-    top: 0rem;
 }
 
     .user-review-styling {
@@ -399,17 +417,14 @@ footer .btn--subscribe {
     line-height: 1.3rem;
     position: relative;
     overflow: hidden;
-    width: 19.3rem;
-    left: 10px;
-    top: 0rem;
 }
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (max-width: 600px) {
     .footer-subscribe {
-        display: inline;
+        display: none;
     }
 
     .about-me-section {
@@ -419,9 +434,9 @@ footer .btn--subscribe {
     border-radius: 10%;
     text-align: center;
     padding: 1rem;
-    width: 50%;
+    width: 90%;
     height: 90%;
-    font-size: 125%;
+    font-size: 75%;
     bottom: 40px;
     overflow: hidden;
 }
@@ -444,7 +459,7 @@ footer .btn--subscribe {
 }
 
     .shop-container {
-        height: 310vh;
+        height: 375vh;
     }
 
    .table-section-styling {
@@ -472,12 +487,9 @@ footer .btn--subscribe {
     position: relative;
     overflow: hidden;
     width: 19.3rem;
-    left: 7px;
-    top: 0rem;
 }
 
  .order-form-styling {
-    /* clear: right; */
     align-items: center;
     color: #e0d8de;
     font-family: Baskerville;
@@ -489,15 +501,7 @@ footer .btn--subscribe {
     position: relative;
     overflow: hidden;
     width: 19.5rem;
-    left: 0.5rem;
-    top: 0rem;
+    
 }
 
-}
-
-/* Small devices (portrait tablets and large phones, 599px and below) */
-@media only screen and (max-width: 599px) {
-    .shop-container {
-        height: 280vh;
-    }
 }

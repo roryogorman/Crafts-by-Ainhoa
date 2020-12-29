@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Crafts by Ainhoa</title>
 </head>
+
 <body>
-<div class="container-fluid">
+    <div class="container-fluid">
     <header>
+        <!--Navbar coding taken from Bootstrap 4.5.3-->
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.html">Crafts by Ainhoa</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -27,9 +29,6 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-link" href="#">Eng/Esp</a>
-                    </li>-->
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
@@ -43,7 +42,8 @@
             </div>
         </nav>
     </header>
-    <!--About Me Section-->
+
+    <!--Welcome to the Site Section-->
     <div class="callout-container">
         <div class="row about-me-section">
             <div class="col-12">
@@ -58,7 +58,7 @@
             </div>
             <div class="col-12">
                 <p class="about-me-details">
-                    Combining my skills and passion for crafts, this page is to showcase & market my produce
+                    Combining my skills and passion for crafts, this page is to showcase & market my goods.
                 </p>
             </div>
             <div class="col-12">
@@ -70,14 +70,14 @@
             <div class="col-12">
                 <a class="shop-now-link" href="shop.html">
                     <div class="col-12 shop-now-function">
-                        <h1>Shop Now!</h1><br>
-                        <hr><i class="fas fa-shopping-bag"></i>
+                        <h1>Shop Now!</h1>
                     </div>
-                </a>
+                </a>  
             </div>
         </div>
     </div>
-    <!-- Modal -->
+
+    <!--Modal for Join/Sign In button, taken from Bootstrap 4.5.3-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -112,7 +112,8 @@
             </div>
         </div>
     </div>
-    <!--Footer contains Contact Details, Subscribe Button & Social Media Links-->
+
+    
     <footer class="container-fluid">     
     <div class="row" id="footer-contact-details">
         <div class="col-sm-4">
@@ -125,11 +126,12 @@
         </div>
     
             <div class="col-sm-4 btn--cta footer-subscribe">
-            <h5 class="uppercase general-sub">Subscribe to receive news of our latest products!</h5>
+            <h5 class="uppercase general-sub">Subscribe to receive news of my latest crafts!</h5>
                <button type="button" class="btn btn--cta btn--subscribe" data-toggle="modal" data-target="#exampleModal">Join/Sign-In</button> 
             </div>
             
             <div class="col-sm-4">
+            <!--Code for Social Media section is taken from the 'UCD Resume' project in the User Centric module of the Code Institute curriculum-->
             <h5 class="uppercase general-sub">My Social Media Pages:</h5>
                 <ul class="list-inline social-media">
                     <li class="list-inline-item">
@@ -167,6 +169,7 @@
     </div>
     </footer>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Baskerville:100,200,300,400,500,600,700|Rochester:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Baskervville:100,200,300,400,500,600,700|Rochester:100,200,300,400,500,600,700');
 *{
     margin:0;
     padding:0;
     border:0;
 }
 body{
-    font-family: Baskerville, san-serif;
+    font-family: Baskervville, san-serif;
 }
 
 /*---------Navbar Styling---------*/
@@ -29,7 +29,7 @@ body{
     font-size: 200%;
 }
 .navbar-nav li {
-    font-family: Baskerville, san-serif;
+    font-family: Baskervville, san-serif;
     font-weight: bold;
     font-size: 120%;
     display: block;
@@ -37,6 +37,11 @@ body{
     margin-right: .5rem;
     color: #e0d8de;
 }
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #e0d8de;
+}
+
 .btn--cta{
     font-weight: bold;
     border-radius: 25px;
@@ -46,6 +51,7 @@ body{
     background-color: #e0d8de;
     color: #4b3b47;
     border-color: #e0d8de;
+    font-family: Baskervville;
 }
 .btn--subscribe:hover {
     background: #727598;
@@ -74,7 +80,8 @@ body{
     border-radius: 10%;
     text-align: center;
     padding: 1rem;
-    width: 40%;
+    width: 60%;
+    height: 75%;
     font-size: 115%;
     bottom: 100px;
     overflow: hidden;
@@ -87,27 +94,20 @@ body{
     margin: 10px;
 }
 .about-me-details {
-    font-family: Baskerville, sans-serif;
+    font-family: Baskervville, sans-serif;
     color: #e0d8de;
     font-size: 90%;
     margin: 10px;
 }
-.block-divider {
-    width: 75px;
-    height: 5px;
-    margin: auto;
-    border: 0;
-    background-color: #704c5e;
-}
 
 .shop-now-function {
     display: inline-flexbox;
-    font-size: 130%;
+    font-size: 125%;
     font-family: Rochester;
     justify-content: center;
     border-radius: 50%;
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 14rem;
     display: flex;
     align-items: center;
     background-color: rgba(114,117,152, .85);
@@ -126,18 +126,30 @@ body{
 
 /*---------Gallery Page Styling---------*/
 
-.carousel-styling {
-    width: 80%;
-    height: 80%;
+.jumbotron {
+    margin-bottom: 0rem;
+    background-color: #E9ECEF;
+    border-radius: .3rem;
+    font-family: Baskervville;
+    text-align: center;
+    color: #4b3b47;
+    font-size: 80%;
+}
+
+.display-4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+
 }
 
 .carousel-text {
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 700;
     font-size: 125%;
     background-color: rgba(152,130,114, .7);
     color: #e0d8de;
-    border-radius: 3%;
+    border-radius: 1%;
 }
 
 /*---------Shop Page Styling---------*/
@@ -164,9 +176,10 @@ body{
     text-align: center;
     background-color: rgba(152,149,114, .85);
     color: #e0d8de;
-    margin: 1rem;
     padding: 10px;
-    border-radius: 2%;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .price-container {
@@ -177,10 +190,9 @@ body{
 }
 
 .table-section-styling {
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 600;
     font-size: 100%;
-    border-radius: 2%;
     text-align: center;
     background-color: rgba(152,149,114, .85);
     color: #e0d8de;
@@ -197,7 +209,7 @@ body{
 .user-review-styling {
     clear: left;
     color: #e0d8de;
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 400;
     background-color: rgba(149,114,152, .85);
     border-radius: 2%;
@@ -208,16 +220,24 @@ body{
     line-height: 1.3rem;
     position: relative;
     overflow: hidden;
-    /*width: 19.3rem;
-    left: 2px;
-    top: 0rem;*/
+}
+
+.btn--cta--review {
+    background-color: #e0d8de;
+    color: #4b3b47;
+    border-color: #e0d8de;
+    border-radius: 25px;
+    font-family: Baskervville;
+    font-weight: 700;
+}
+.btn--cta--review:hover {
+    background: #727598;
 }
 
 .order-form-styling {
-    /* clear: right; */
     align-items: center;
     color: #e0d8de;
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 700;
     background-color: rgba(114,136,152, .85);
     border-radius: 2%;
@@ -225,13 +245,11 @@ body{
     font-size: 90%;
     position: relative;
     overflow: hidden;
-    /*width: 19.5rem;
-    left: 0rem;
-    top: 0rem;*/
 }
 
 #inputProduct.form-control {
-    font-family: Baskerville;
+    font-family: Baskervville;
+    font-weight: 600;
 }
 
 /*---------Footer Styling---------*/
@@ -314,41 +332,16 @@ footer .btn--subscribe {
 /*---------Media Styling---------*/
 
 /* Large devices (laptops/desktops, 992px and up) */
-/*@media only screen and (min-width: 992px) {
-    .order-form-styling {
-            clear: right;
-    align-items: center;
-    color: #e0d8de;
-    font-family: Baskerville;
-    font-weight: 700;
-    background-color: rgba(114,136,152, .85);
-    border-radius: 5%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    font-size: 90%;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    top: 0rem;
-    left: -15rem;
-}*/
+@media only screen and (min-width: 992px) {
+    
 
     .shop-container {
         height: 170vh;
 }
 
-    /*.table-section-styling {
-        width: 100%;
-    }
+} 
 
-    /*.user-review-styling {
-    left: -13rem;
-    top: 1rem;      
-}
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and below) */
 @media only screen and (max-width: 768px) {
     .about-me-section {
     clear: left;
@@ -381,7 +374,7 @@ footer .btn--subscribe {
     }
 
     .table-section-styling {
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 600;
     font-size: 100%;
     text-align: center;
@@ -393,7 +386,7 @@ footer .btn--subscribe {
     .order-form-styling {
     align-items: center;
     color: #e0d8de;
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 700;
     background-color: rgba(114,136,152, .85);
     border-radius: 5%;
@@ -406,7 +399,7 @@ footer .btn--subscribe {
     .user-review-styling {
     clear: left;
     color: #e0d8de;
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 400;
     background-color: rgba(149,114,152, .85);
     border-radius: 2%;
@@ -419,10 +412,15 @@ footer .btn--subscribe {
     overflow: hidden;
 }
 
+    .col-7 {
+        flex: 0 0 58.333333%;
+        max-width: 57.333333%;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 590px) {
     .footer-subscribe {
         display: none;
     }
@@ -459,11 +457,11 @@ footer .btn--subscribe {
 }
 
     .shop-container {
-        height: 375vh;
+        height: 390vh;
     }
 
    .table-section-styling {
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 600;
     font-size: 100%;
     text-align: center;
@@ -475,7 +473,7 @@ footer .btn--subscribe {
     .user-review-styling {
     clear: left;
     color: #e0d8de;
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 400;
     background-color: rgba(149,114,152, .85);
     border-radius: 2%;
@@ -492,7 +490,7 @@ footer .btn--subscribe {
  .order-form-styling {
     align-items: center;
     color: #e0d8de;
-    font-family: Baskerville;
+    font-family: Baskervville;
     font-weight: 700;
     background-color: rgba(114,136,152, .85);
     border-radius: 2%;

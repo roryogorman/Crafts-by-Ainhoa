@@ -16,6 +16,7 @@
 <body>
 <div class="container-fluid">
     <header>
+        <!--Navbar coding taken from Bootstrap 4.5.3-->
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.html">Crafts by Ainhoa</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -27,9 +28,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-link" href="#">Eng/Esp</a>
-                    </li>-->
                     <li class="nav-item active">
                         <a class="nav-link" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
                     </li>
@@ -43,6 +41,7 @@
             </div>
         </nav>
     </header>
+
     <section>
     <!--Carousel of Images Section - code from Bootstrap 4.5.3-->
     <div class="container-fluid">
@@ -64,13 +63,6 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="assets/images/Crafts_Blanket_1.jpg" class="d-block w-100" alt="assets/images/Crafts_Blanket_1.jpg">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="carousel-text">Baby Blanket</h5>
-                    <p class="carousel-text">Childs Blanket, in purple, green & yellow</p>
-                </div>
-                </div>
-                <div class="carousel-item">
                 <img src="assets/images/Crafts_Blanket_2.jpg" class="d-block w-100" alt="assets/images/Crafts_Blanket_2.jpg">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="carousel-text">Soft Adult Blanket</h5>
@@ -85,10 +77,17 @@
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="assets/images/Crafts_Blanket_4.jpg" class="d-block w-100" alt="assets/images/Crafts_Blanket_4.jpg">
+                <img src="assets/images/Crafts_Winter_Coat.jpg" class="d-block w-100" alt="assets/images/Crafts_Blanket_1.jpg">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="carousel-text">Gifted Blanket Set</h5>
-                    <p class="carousel-text">Gifted Blanket Set, set in a bow</p>
+                    <h5 class="carousel-text">Winter Coat</h5>
+                    <p class="carousel-text">Three Quarter Length Coat Woollen Coat - guaranteed to keep you snug!</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="assets/images/Crafts_Summer_Jacket.jpg" class="d-block w-100" alt="assets/images/Crafts_Blanket_4.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carousel-text">Summer Jacket</h5>
+                    <p class="carousel-text">Short Jacket - perfect for summer evening wear!</p>
                 </div>
                 </div>
                 <div class="carousel-item">
@@ -147,7 +146,8 @@
         </div>
     </div>
     </section>
-    <!-- Modal -->
+
+    <!--Modal for Join/Sign In button, taken from Bootstrap 4.5.3-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -182,15 +182,18 @@
             </div>
         </div>
     </div>
+
     <!--Footer contains Contact Details, Subscribe Button & Social Media Links-->
     <footer class="container-fluid">     
     <div class="row" id="footer-contact-details">
         <div class="col-sm-4">
             <h5 class="uppercase general-sub contact-header">Want to get in touch directly?</h5>
             <p class="inline-block contact-details">
-            <i class="far fa-envelope" aria-hidden="true"></i> craftsbyainhoa@gmail.com
+            <i class="far fa-envelope" aria-hidden="true"></i> 
+            <a href="mailto:craftsbyainhoa@gmail.com">craftsbyainhoa@gmail.com</a>
             <br>
-            <i class="fas fa-mobile-alt" aria-hidden="true"></i> +353 (0)87 123 4567
+            <i class="fas fa-mobile-alt" aria-hidden="true"></i> 
+            <a href="tel:00353871234567">+353 (0)87 123 4567</a>
             </p>
         </div>
     
@@ -237,6 +240,7 @@
     </div>
     </footer>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

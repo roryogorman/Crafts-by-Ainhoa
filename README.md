@@ -7,11 +7,11 @@ This project demonstartes the skills and knowledge that I have picked up studyin
 attract both new customers & those familiar with her work, showcase & market the merchandise. 
 
 The website is designed to be accessed and viewed on all smart devices, laptops & PCs.
+
+The live website is available [here](https://roryogorman.github.io/Crafts-by-Ainhoa/)
 ***
 
 ## User Experience
-
-
 ### User Stories
 #### First Time Users
 * A primary goal of first time users is to be easily able to access the site.
@@ -54,6 +54,10 @@ For a site that will be primarily used to sell the merchandise of the vendor, im
 As such, I have used stock imagery for background 'hero' images on each page and have used images of products already created by the vendor in the Gallery tab. This gives the viewer a clear visual representation of the subject matter, aims and purposes of this site.
 
 ### Wireframes
+- Wireframes were created using Balsamiq.
+* [Home Page](https://github.com/roryogorman/Crafts-by-Ainhoa/blob/bf2e6a10a0c8557f1edecb203e884bc4f2b84e15/assets/images/Wireframe_Images/Home_Page.png)
+* [Gallery Page](https://github.com/roryogorman/Crafts-by-Ainhoa/blob/bf2e6a10a0c8557f1edecb203e884bc4f2b84e15/assets/images/Wireframe_Images/Gallery_Page.png)
+* [Shop Page](https://github.com/roryogorman/Crafts-by-Ainhoa/blob/bf2e6a10a0c8557f1edecb203e884bc4f2b84e15/assets/images/Wireframe_Images/Shop_Page.png) 
 
 ***
 
@@ -156,8 +160,10 @@ This page is divided into 5 parts:
     - This tool was used to ensure correct mobile responsiveness, as well as inspecting the formatting of the various elements of the site
 * [Stack Overflow](https://stackoverflow.com/)
     - This site was used for solutions to various tasks that arose while coding the page.
-* HTML validator
-* CSS Validator
+* [HTML validator](https://validator.w3.org/)
+    - This site was used to validate the HTML code.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - this site was used to validate the CSS code.
 
 ***
 
@@ -173,28 +179,27 @@ This page is divided into 5 parts:
             * Clicking on 'Shop' should navigate the user to the 'Shop' page. Test Successful.
     - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
             * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
-            * Failure to add in email address in correct format should result in a fail message - TBA
     - Mobile devices:
+            * On small devices, the links to the other pages in the site are collapsed into a 'hamburger' menu, for real estate purposes. Test Successful.
 
 #### Main Section:
     - One 'section' centred on the screen giving an introduction to the site.
     - A 'Shop Now' button - clicking on this will take the user to the 'Shop' page. Test Successful.
-    - Mobile Devices:
 
 #### Footer Section:
     - Contact Details: 
             * Phone contact no. & email address should appear on the left side. Test Successful.
     - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
             * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
-            * Failure to add in email address in correct format should result in a fail message - TBA
     - Social Media Links:
             * The icons for each social media link should darken as the mouse hovers over it. Test Successful.
             * Clicking on Facebook icon should bring the user to the Facebook page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Facebook's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
+            * Clicking on Twitter icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
+            * Clicking on Instagram icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
+            * Clicking on Pinterest icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
+            * Clicking on Ravelry icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
     - Mobile Devices:
+            * On small devices, the 'Subscribe' section is not displayed for real estate purposes. Test successful.
 
 ### 2. Gallery Page
 #### Navbar Section:
@@ -206,31 +211,37 @@ This page is divided into 5 parts:
             * Clicking on 'Shop' should navigate the user to the 'Shop' page. Test Successful.
     - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
             * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
-            * Failure to add in email address in correct format should result in a fail message - TBA
     - Mobile devices:
+            * On small devices, the links to the other pages in the site are collapsed into a 'hamburger' menu, for real estate purposes. Test Successful.
 
 #### Main Section:
     - The main section consists of a 'carousel' of 10 images, automatically scrolling. Test Successful.
     - Clicking on the bars at the bottom of the carousel allows the user to scroll through the images at their convenience. Test Successful.
     - Description of the image is given at the bottom of the carousel. Test Successful.
     - Mobile Devices:
+            * On small devices, the descriptions of the images are not displayed, to 'declutter' the carousel. Test Successful.
 
 #### Footer Section:
     - Contact Details: 
             * Phone contact no. & email address should appear on the left side. Test Successful.
     - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
             * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
-            * Failure to add in email address in correct format should result in a fail message - TBA
     - Social Media Links:
             * The icons for each social media link should darken as the mouse hovers over it. Test Successful.
             * Clicking on Facebook icon should bring the user to the Facebook page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Facebook's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
+            * Clicking on Twitter icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
+            * Clicking on Instagram icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
+            * Clicking on Pinterest icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
+            * Clicking on Ravelry icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
     - Mobile Devices:
+            * On small devices, the 'Subscribe' section is not displayed for real estate purposes. Test successful.
 
 ### 3. Shop Page:
+
+#### Responsive views:
+    - On small devices, the three components of this page should be stacked together. Test Successful.
+    - On tablets & desktop views, the layout should be the Price List & Customer Reviews on the left, with the Order Form on the right. Test Successful.
+
 #### Navbar Section:
     - Home: This should be unbolded as this is not the current page. Test Successful.
             * Clicking on 'Home' should navigate the user to the 'Home' page. Test Successful.
@@ -240,28 +251,31 @@ This page is divided into 5 parts:
             * Clicking on 'Shop' should result in the user remaining on this page. Test Successful.
     - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
             * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
-            * Failure to add in email address in correct format should result in a fail message - TBA
     - Mobile devices:
+            * On small devices, the links to the other pages in the site are collapsed into a 'hamburger' menu, for real estate purposes. Test Successful.
+
+#### Customer Reviews:
+    - The user should be able to leave a review of the site, products, etc, via the 'Leave Review' button.
+            * Clicking the 'Leave Review' button should bring up a form, inviting the user to give their name/location & feecback. Test Successful.
 
 #### Order Form:
     - The user should be able to enter their details of the various sections on the form. Test Successful.
     - The user email address should be in the standard address format. If not, an alert message should appear. Test Successful.
-    - Mobile Devices:
 
 #### Footer Section:
     - Contact Details: 
             * Phone contact no. & email address should appear on the left side. Test Successful.
     - Join/Sign In Button: Currently a white colour, this shade should darken when the mouse hovers over it. Test Successful.
             * Clicking on this button should invite the user to enter their email address and password via a form. Test Successful.
-            * Failure to add in email address in correct format should result in a fail message - TBA
     - Social Media Links:
             * The icons for each social media link should darken as the mouse hovers over it. Test Successful.
             * Clicking on Facebook icon should bring the user to the Facebook page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Facebook's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
-            * Clicking on Facebook icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
+            * Clicking on Twitter icon should bring the user to the Twitter page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Twitter's Home Page). Test Successful.
+            * Clicking on Instagram icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
+            * Clicking on Pinterest icon should bring the user to the Pinterest page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Pinterest's Home Page). Test Successful.
+            * Clicking on Ravelry icon should bring the user to the Ravelry page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Ravelry's Home Page). Test Successful.
     - Mobile Devices:
+            * On small devices, the 'Subscribe' section is not displayed for real estate purposes. Test successful.
 
 ### Testing of User Stories:
 #### First Time Users
@@ -297,27 +311,75 @@ This page is divided into 5 parts:
 * The site owner also would like to see clear links between the site and the various social media platforms. 
     - The footer of each pages contains links to the various Social Media pages for the business.
 
+#### HTML Validator
+* Passing my HTML code through the Validator resulted in small errors in my coding for the Order Form on the Shop page, where some label ID attributes were not unique, which have subsequently been corrected.
+* One additional error was found - in my navbar links, I have a button element as a child of a <ul> element. This is being investigated, however I feel that it does not impact the performance of the website as the Subscription option can still be accessed. 
+
+#### CSS Validator
+* No errors found on my code using this validator.
 
 ***
 
 ## Bugs
 
-- White space appearing above footer bar.
-- Space between Price List Header & Table on Shop Page.
-- 2 images on the carousel that are shorter than the others & so on mobile, it distorts the footer layout.
+Bug: White space appearing above footer bar.
+Fix: This occured because the 'Container-Fluid' class on the footer has a defualt top margin of 16px. Zeroing this removed the space.
+
+Bug: White bars appearing above and below footer bar.
+Fix: On Developer Tool, I could see two unicode characters before and after the footer bar code, however I could not see these in the code I had written.
+     To get past this, I cut the code out into a word document, deleted anything (hidden or visible) in the code, then pasted back in the code. I then cleared the cache before refreshing and the spaces had left.
+
+Bug: A space appearing between the Price List Header & Table on the Shop page. 
+Fix: Using Developer Tool, a <hr> tag can been seen between the two. However on the code, this does not appear. I attempted to remove the tag in a similar fashion to the second Bug above, but this did not resolve it.
+     Following the advice of Daisy McGirr in the Slack community, I simply added a <hr> function to my css file and styled it to remove margins, etc and se tthe 'display' to 'none'. then adjusted the width of the Price Header element to match the table.  
+
+Bug: Navbar links not being coloured as the other text in the navbar & footers.
+Fix: I had incorrectly targeted this part of the navbar code in my CSS code - Developer Tools was able to point out exactly the element that I needed to target to style correctly.
 
 
 ***
 
 ## Deployment
+### GitHub Pages
 
+The following steps were taken to deploy this website:
+* Log in into [GitHub](https://www.github.com).
+* Click & open the 'Crafts by Ainhoa' repository.
+* Click on 'Settings' in the toolbar.
+* Scroll down the page to the 'GitHub Pages' section.
+* In the 'Source' section, click the dropdown menu currently defaulted to 'None".
+* Select 'Branch: master' from the dropdown menu, then click 'Save'.
+* The page will re-load automatically.
+* Scroll down again to the same section "GitHub Pages".
+* Now at the top of this section, you will see a link that says "Your site is published at [https://roryogorman.github.io/Crafts-by-Ainhoa/](https://roryogorman.github.io/Crafts-by-Ainhoa/)".
+
+The following two sections were taken from the Code Institute's "Sample README.md" template [here](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+
+### Fork the code
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+* Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+* At the top of the Repository (not top of page) just above the 'Settings' Button on the menu, locate the 'Fork' Button.
+* You should now have a copy of the original repository in your GitHub account.
+
+
+### Local Clone
+
+To make a local clone of the site, follow these steps:
+* Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+* Under the repository name, click 'Clone or download'.
+* To clone the repository using HTTPS, under 'Clone with HTTPS', copy the link.
+* Open Git Bash
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type `git clone`, and then paste the URL you copied in Step 3.
+* Press Enter. Your local clone will be created.
 
 ***
 
 ## Credits
 - My mentor Spencer Barriball - whose knowledge, advice, experience & enthusiasm has been of invaluable help throughout this course.
-- Code Institute's Tutor Support, who have taken the time to take me through the concept of Mobile First, an area who's concept I had struggled to fully understand.
-- The fantastic folk on the 'User Centric Frontend', 'Ask Us Anything' & 'Springboard Sept 2020' Slack Channels who have been of such great help on numerous issues that I have come across in the creation pf this site.
+- Code Institute's Tutor Support - especially Johann & Cormac - who have taken the time to take me through the concept of Mobile First, an area who's concept I had struggled to fully understand.
+- The fantastic Slack User Community who have been of such great help on numerous issues that I have come across in the creation pf this site.
 - The Business Owner, who provided the photographs for the Carousel in the Gallery Page, as well as advising on colour schemes, layout and testing of the content.
 
 

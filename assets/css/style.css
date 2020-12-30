@@ -40,6 +40,7 @@ body{
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #e0d8de;
+    font-weight: 700;
 }
 
 .btn--cta{
@@ -52,13 +53,14 @@ body{
     color: #4b3b47;
     border-color: #e0d8de;
     font-family: "Baskervville", sans-serif;
+    font-weight: 700;
 }
 .btn--subscribe:hover {
     background: #727598;
 }
 
 /*---------Landing Page Styling---------*/
-.callout-container {
+.index-container {
     height: 150vh;
     background: url("../images/Landing_Page_Crochet_Image.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -105,8 +107,8 @@ body{
     font-family: "Rochester", sans-serif;
     justify-content: center;
     border-radius: 50%;
-    width: 14rem;
-    height: 14rem;
+    width: 13rem;
+    height: 12rem;
     display: flex;
     align-items: center;
     background-color: rgba(114,117,152, .85);
@@ -166,6 +168,13 @@ body{
     position: relative;
     overflow: hidden;
     margin-bottom: 0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    display: none; 
 }
 
 .price-header {
@@ -338,6 +347,12 @@ footer .btn--subscribe {
     background: rgb(114,117,152);
 }
 
+
+/*---------Modal Styling---------*/
+
+.modal {
+    font-family: 'Baskervville',sans-serif;
+}
 
 /*---------Media Styling---------*/
 
@@ -535,6 +550,32 @@ footer .btn--subscribe {
     overflow: hidden;
 }
 
+.about-me-details {
+    font-family: "Baskervville", sans-serif;
+    color: #e0d8de;
+    font-size: 100%;
+    margin: 10px;
+}
+
+.shop-now-function {
+    font-size: 125%;
+    font-family: "Rochester", sans-serif;
+    justify-content: center;
+    border-radius: 50%;
+    width: 13rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(114,117,152, .85);
+    }
+
+.shop-now-link {
+    color: #f2e9dc;
+    font-weight: bold;
+    display: inline-flex;
+    width: 56%;
+}
+
     .shop-container {
         height: 190vh;
 }
@@ -550,7 +591,7 @@ footer .btn--subscribe {
     margin-bottom: 0;
     margin-left: 1rem;
     margin-right: 1rem;
-    width: 92%;
+    width: 93.8%;
 }
 
     .table-section-styling {

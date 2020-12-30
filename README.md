@@ -313,7 +313,7 @@ This page is divided into 5 parts:
 
 #### HTML Validator
 * Passing my HTML code through the Validator resulted in small errors in my coding for the Order Form on the Shop page, where some label ID attributes were not unique, which have subsequently been corrected.
-* One additional error was found - in my navbar links, I have a button element as a child of a <ul> element. This is being investigated, however I feel that it does not impact the performance of the website as the Subscription option can still be accessed. 
+* One additional error was found - in my navbar links, I have a button element as a child of a <ul> element. This has been resolved by aking the <button> element out of the <ul> element. A subsequent validation run showed no errors in the code.
 
 #### CSS Validator
 * No errors found on my code using this validator.

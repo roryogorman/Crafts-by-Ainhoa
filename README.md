@@ -128,30 +128,30 @@ This page is divided into 5 parts:
 
 ### Languages
 
-* [HTML5](https://en.wikipedia.org/wiki/HTML5) - the main structures of this website were coded using HTML5
-* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) - the styling of this website has been coded using CSS3
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - the main structures of this website were coded using HTML5.
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) - the styling of this website has been coded using CSS3.
 
 ### Frameworks, Libraires & Programs Used
 * [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-    - This was used to assist with the responsiveness and styling of the website
+    - This was used to assist with the responsiveness and styling of the website.
 * [Google Fonts](https://fonts.google.com/)
     - I used this to import the Baskerville & Rochester Fonts 
 * [Font Awesome](https://use.fontawesome.com/releases/v5.0.10/css/all.css)
-    - The Social Media icons on each page were imported from this library
+    - The Social Media icons on each page were imported from this library.
 * [Github](https://github.com/roryogorman/Crafts-by-Ainhoa)
-    - Repository Hosting Service for files used for this website
+    - Repository Hosting Service for files used for this website.
 * [Gitpod](https://gitpod.io/workspaces/)
-     - The IDE used for coding & the creation of the source files. These files are committed & pushed from here to Github
+     - The IDE used for coding & the creation of the source files. These files are committed & pushed from here to Github.
 * [Git](https://git-scm.com/)
     - The version control used to commit & push to GitHub.
 * [Balsamiq](https://balsamiq.com/)
-    - Wireframes for the site were created on Balsamiq
+    - Wireframes for the site were created on Balsamiq.
 * [Coverr](https://coverr.co/)
-    - Background 'Hero' Images on the three pages of the site were sourced from this website
+    - Background 'Hero' Images on the Home & Shop pages of the site were sourced from this website.
 * [Coolors](https://coolors.co/)
-    - This site was used to source the colour pallette throughout the website
+    - This site was used to source the colour pallette throughout the website.
 * [ColorHexa](https://colorhexa.com)
-    - This site was used to discover complementary colours used throughout this site
+    - This site was used to discover complementary colours used throughout this site.
 * Chrome Developer Tools 
     - This tool was used to ensure correct mobile responsiveness, as well as inspecting the formatting of the various elements of the site
 * [Stack Overflow](https://stackoverflow.com/)

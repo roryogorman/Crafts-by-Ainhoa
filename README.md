@@ -2,7 +2,7 @@
 ## Purpose
 There are two purposes in the creation of this website.
 * This is my Milestone 1 Project which is part of the Code Institute's Full Stack Software Development Diploma course. 
-This project demonstartes the skills and knowledge that I have picked up studying the HTML, CSS & User Centric Frontend Development modules
+This project demonstrates the skills and knowledge that I have picked up studying the HTML, CSS & User Centric Frontend Development modules
 * This website is also being built to market the crafting products created by the 'Crafts by Ainhoa' company. The aim is to give a web presence to the company,
 attract both new customers & those familiar with her work, showcase & market the merchandise. 
 
@@ -21,14 +21,14 @@ The live website is available [here](https://roryogorman.github.io/Crafts-by-Ain
 #### Returning Users
 * Returning Users may wish to examine the site more closely, understand how to contact & interact with the site owners.
 * They may be interested in subscribing to the site & so be kept aware of new products, blogs, etc.
-* They may wish to have increaed interaction with the site owners either through the site or through social media.
+* They may wish to have increased interaction with the site owners either through the site or through social media.
 
 #### Frequent Users
 * Frequent Users may be interested in purchasing products.
-* Frequent Users may wish to give reveiws & feedback to the Owners on the functionality of the site.
+* Frequent Users may wish to give reviews & feedback to the Owners on the functionality of the site.
 
 #### Site Owner
-* The site owner wishes to use the site to give a web presence to thier business, showcase their products and selling the merchandise.
+* The site owner wishes to use the site to give a web presence to their business, showcase their products and selling the merchandise.
 * The site owner wishes to have an easy-to-follow site that can be updated regularly with new products, new blogposts, new layouts, etc.
 * The site owner also would like to see clear links between the site and the various social media platforms.  
 
@@ -38,15 +38,15 @@ The live website is available [here](https://roryogorman.github.io/Crafts-by-Ain
 ### Design 
 #### Colour Scheme
 - To reflect the subject matter & aims of the site, I will be using soft colours throughout the site e.g. soft yellows, oranges, purples, etc. I feel that using these shades adds to the attractiveness of the site and is very appropriate.
-- The main colour used as a background for the NavBar & Footer is #989572 - a dark grayish yellow which I feel suits the pupose of the webiste well, and also blends very well with the background image.
+- The main colour used as a background for the NavBar & Footer is #989572 - a dark grayish yellow which I feel suits the purpose of the website well, and also blends very well with the background image.
 - Other colours have been chosen which complement the #989572 colour. These are:
     - a. #E0D8DE: A warm grey colour, used as the text colour
-    - b. #727598: A dark grayish blue colour, used as a colour for the 'Shop Now' button, as well as the hover colour for social media icons. 
-    - c. #957298: A dark grayish magenta colour, used as a background for the User Review section.
+    - b. #727598: A dark greyish blue colour, used as a colour for the 'Shop Now' button, as well as the hover colour for social media icons. 
+    - c. #957298: A dark greyish magenta colour, used as a background for the User Review section.
 
 #### Typography
 - Two fonts were used primarily for this site - 'Rochester' & 'Baskerville'. These are two fonts that are commonly used in craft websites and are both clean, clear & very readable and so I feel are appropriate for this site
-- For the 'Site Title' in the NavBar & 'Shop Now' buttons, I have used the 'Rochester' font. I feel that it looks artistic & it fits to the overrall feel of the site.
+- For the 'Site Title' in the NavBar & 'Shop Now' buttons, I have used the 'Rochester' font. I feel that it looks artistic & it fits to the overall feel of the site.
 - From researching other leading craft websites e.g. lovecrafts.com & mookko.co.uk, these sites use typography such as these throughout which makes their sites look very attractive.
 
 #### Imagery
@@ -107,11 +107,11 @@ This page is divided into 5 parts:
     - b. Links to the other pages in the site i.e. 'Home' and 'Gallery'. Clicking on these links will bring you directly to the page, but in the same browser.
     - c. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
 #### Price List per Product
-- This is a table listing the prices for each product currently for sale. It will be broken down into category (e.g. Crochet, Knitwear, Cross-stitch, etc) and the type of product (e.g Blanket, scarf, stitch-work, etc)
+- This is a table listing the prices for each product currently for sale. It will be broken down into category (e.g. Crochet, Knitwear, Cross-stitch, etc) and the type of product (e.g. Blanket, scarf, stitch-work, etc)
 #### Product Reviews
 - This section sits underneath the Price List. It will contain various customer reviews of the merchandise, site, service, etc
 #### Order Form 
-- This form invites the user to place an order for an item. It askes for their Name & Address, the Product Type & Quantity; as well as any additional requests e.g. different colours, etc.
+- This form invites the user to place an order for an item. It asks for their Name & Address, the Product Type & Quantity; as well as any additional requests e.g. different colours, etc.
 #### The Footer Section:
 - This bar sits at the bottom of the page. Contained in this bar, from left-to-right, are:
     - a. Contact Details - the address & contact no. of the business (for the purposes of MS1, this will be dummy values)
@@ -120,10 +120,10 @@ This page is divided into 5 parts:
 
 ### Features to be implemented in future:
 * As the owner is originally from Spain & does some business there, it is hoped to add a bilingual option (English & Spanish) which will translate the page into the appropriate language.
-* A link that opens an email in the user's default environment when they want to email the owner is not yet curently set up.
-* Currently there are no 'live' Social Media pages for the business - once these are created, these links will be amended correctly. At the monent, the merely point to the home page of the respective site.
-* There isnt functionality yet to join the site or send feedback - this will be implemented in future.
-* There isnt functionality to purchase online - this will be added at a future date.
+* A link that opens an email in the user's default environment when they want to email the owner is not yet currently set up.
+* Currently there are no 'live' Social Media pages for the business - once these are created, these links will be amended correctly. At the moment, they merely point to the home page of the respective site.
+* There isn't functionality yet to join the site or send feedback - this will be implemented in future.
+* There isn't functionality to purchase online - this will be added at a future date.
 
 
 ***
@@ -153,7 +153,7 @@ This page is divided into 5 parts:
 * [Coverr](https://coverr.co/)
     - Background 'Hero' Images on the Home & Shop pages of the site were sourced from this website.
 * [Coolors](https://coolors.co/)
-    - This site was used to source the colour pallette throughout the website.
+    - This site was used to source the colour palette throughout the website.
 * [ColorHexa](https://colorhexa.com)
     - This site was used to discover complementary colours used throughout this site.
 * Chrome Developer Tools 
@@ -256,7 +256,7 @@ This page is divided into 5 parts:
 
 #### Customer Reviews:
     - The user should be able to leave a review of the site, products, etc, via the 'Leave Review' button.
-            * Clicking the 'Leave Review' button should bring up a form, inviting the user to give their name/location & feecback. Test Successful.
+            * Clicking the 'Leave Review' button should bring up a form, inviting the user to give their name/location & feedback. Test Successful.
 
 #### Order Form:
     - The user should be able to enter their details of the various sections on the form. Test Successful.
@@ -282,9 +282,9 @@ This page is divided into 5 parts:
 * A primary goal of first time users is to be easily able to access the site.
     - Clicking on the weblink will allow the user to access the site.
 * The first time user should clearly be able to understand the site & its aims.
-    - The 'Welcome to...' section on the Landing Page (the Home Page) gives an overiew of the site and its objectives.
+    - The 'Welcome to...' section on the Landing Page (the Home Page) gives an overview of the site and its objectives.
 * As the first time user is interested in crafting products, the user should be easily able to navigate the site, understand the layout of the site and where to find the desired content.
-    - The Navbar at the top of each screen is an easily navigable method for the site, and each link will take the user to the desied section.
+    - The Navbar at the top of each screen is an easily navigable method for the site, and each link will take the user to the desired section.
 
 #### Returning Users
 * Returning Users may wish to examine the site more closely, understand how to contact & interact with the site owners.
@@ -292,13 +292,13 @@ This page is divided into 5 parts:
     - There is also a section on the 'Shop' page inviting the user to leave feedback about the site & products.
 * They may be interested in subscribing to the site & so be kept aware of new products, blogs, etc.
     - There is a Subscription button on each page, inviting the user to sign up to receive updates, new merchandise, etc.
-* They may wish to have increaed interaction with the site owners either through the site or through social media.
+* They may wish to have increased interaction with the site owners either through the site or through social media.
     - As well as the Contact Details & Social Media links, there is also a Customer Reviews section on the 'Shop' page inviting the user to leave feedback about the site & products.
 
 #### Frequent Users
 * Frequent Users may be interested in purchasing products.
-    - An Order Form on the 'Shop' page invies the user to purchase goods.
-* Frequent Users may wish to give reveiws & feedback to the Owners on the functionality of the site.
+    - An Order Form on the 'Shop' page invites the user to purchase goods.
+* Frequent Users may wish to give reviews & feedback to the Owners on the functionality of the site.
     - On the 'Shop' page, there is a Customer Reviews section inviting the user to leave any feedback.
 
 #### Site Owner
@@ -323,7 +323,7 @@ This page is divided into 5 parts:
 ## Bugs
 
 Bug: White space appearing above footer bar.
-Fix: This occured because the 'Container-Fluid' class on the footer has a defualt top margin of 16px. Zeroing this removed the space.
+Fix: This occurred because the 'Container-Fluid' class on the footer has a default top margin of 16px. Zeroing this removed the space.
 
 Bug: White bars appearing above and below footer bar.
 Fix: On Developer Tool, I could see two unicode characters before and after the footer bar code, however I could not see these in the code I had written.
@@ -331,11 +331,13 @@ Fix: On Developer Tool, I could see two unicode characters before and after the 
 
 Bug: A space appearing between the Price List Header & Table on the Shop page. 
 Fix: Using Developer Tool, a <hr> tag can been seen between the two. However on the code, this does not appear. I attempted to remove the tag in a similar fashion to the second Bug above, but this did not resolve it.
-     Following the advice of Daisy McGirr in the Slack community, I simply added a <hr> function to my css file and styled it to remove margins, etc and se tthe 'display' to 'none'. then adjusted the width of the Price Header element to match the table.  
+     Following the advice of Daisy McGirr in the Slack community, I simply added a <hr> function to my CSS file and styled it to remove margins, etc and set the 'display' to 'none'. then adjusted the width of the Price Header element to match the table.  
 
 Bug: Navbar links not being coloured as the other text in the navbar & footers.
 Fix: I had incorrectly targeted this part of the navbar code in my CSS code - Developer Tools was able to point out exactly the element that I needed to target to style correctly.
 
+Bug: Issue where Price Header title was not sitting perfectly on the price table in desktop view
+Fix: Adjusting the width to a fraction of a percent looks to have fixed this.
 
 ***
 

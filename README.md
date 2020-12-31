@@ -3,7 +3,7 @@
 There are two purposes in the creation of this website.
 * This is my Milestone 1 Project which is part of the Code Institute's Full Stack Software Development Diploma course. 
 This project demonstrates the skills and knowledge that I have picked up studying the HTML, CSS & User Centric Frontend Development modules
-* This website is also being built to market the crafting products created by the "Crafts by Ainhoa" company. The aim is to give a web presence to the company,
+* This website is also being built to market the crafting products created by the 'Crafts by Ainhoa' company. The aim is to give a web presence to the company,
 attract both new customers & those familiar with her work, showcase & market the merchandise. 
 
 The website is designed to be accessed and viewed on all smart devices, laptops & PCs.
@@ -41,12 +41,12 @@ The live website is available [here](https://roryogorman.github.io/Crafts-by-Ain
 - The main colour used as a background for the NavBar & Footer is #989572 - a dark grayish yellow which I feel suits the purpose of the website well, and also blends very well with the background image.
 - Other colours have been chosen which complement the #989572 colour. These are:
     - a. #E0D8DE: A warm grey colour, used as the text colour
-    - b. #727598: A dark greyish blue colour, used as a colour for the "Shop Now" button, as well as the hover colour for social media icons. 
+    - b. #727598: A dark greyish blue colour, used as a colour for the 'Shop Now' button, as well as the hover colour for social media icons. 
     - c. #957298: A dark greyish magenta colour, used as a background for the User Review section.
 
 #### Typography
 - Two fonts were used primarily for this site - Rochester & Baskervville. These are two fonts that are commonly used in craft websites and are both clean, clear & very readable and so I feel are appropriate for this site
-- For the Site Title in the NavBar & "Shop Now" buttons, I have used the Rochester font. I feel that it looks artistic & it fits to the overall feel of the site.
+- For the Site Title in the NavBar & 'Shop Now' buttons, I have used the Rochester font. I feel that it looks artistic & it fits to the overall feel of the site.
 - From researching other leading craft websites e.g. lovecrafts.com & mookko.co.uk, these sites use typography such as these throughout which makes their sites look very attractive.
 
 #### Imagery
@@ -72,39 +72,39 @@ This page is divided into 4 parts:
 - The Navigation Bar ('Nav') sits atop this page. Contained in this bar, from left-to-right, are:
     - a. The site's logo
     - b. Links to the other pages in the site i.e. Gallery and Shop. Clicking on these links will bring you directly to the page, but in the same browser.
-    - c. A "Join/Sign In" button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
+    - c. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
 #### Hero Image Section:
 - The Headline Section contains a Hero Image which will be a stock image of crochet work. In consultation with the subject owner of the site, she feels that this reflects how she crafts.
 #### About Me Section:
-- This section has a brief introduction to the owner of the site, a background & also outlines her products. A "Shop Now" button will sit here linking through to the Shop page
+- This section has a brief introduction to the owner of the site, a background & also outlines her products. A 'Shop Now' button will sit here linking through to the Shop page
 #### The Footer Section:
 - This bar sits at the bottom of the page. Contained in this bar, from left-to-right, are:
     - a. Contact Details - the address & contact no. of the business (for the purposes of MS1, this will be dummy values)
-    - b. A "Join/Sign In" button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
+    - b. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
     - c. Social Media Links - links through to the Facebook, Instagram, Twitter & Pinterest pages for the business. For the purposes of MS1, these will be links to the home pages of these sites as the social media pages do not exist as yet.
 
 #### 2. The Gallery Page
 This page is divided into 3 parts:
 #### The Navigation Bar:
-- The Navigation Bar ("Nav") sits atop this page. Contained in this bar, from left-to-right, are:
+- The Navigation Bar ('Nav') sits atop this page. Contained in this bar, from left-to-right, are:
     - a. The site's logo
     - b. Links to the other pages in the site i.e. Home and Shop. Clicking on these links will bring you directly to the page, but in the same browser.
-    - c. A "Join/Sign In" button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
+    - c. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
 #### Carousel
 - This section contains a carousel of images of crafts that have been made - this gives the user a visual representation of the products. 
-- A "Shop Now" button will sit here linking through to the Shop page
+- A 'Shop Now' button will sit here linking through to the Shop page
 #### The Footer Section:
 - This bar sits at the bottom of the page. Contained in this bar, from left-to-right, are:
     - a. Contact Details - the address & contact no. of the business (for the purposes of MS1, this will be dummy values)
-    - b. A "Join/Sign In" button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
+    - b. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
     - c. Social Media Links - links through to the Facebook, Instagram, Twitter & Pinterest pages for the business. For the purposes of MS1, these will be links to the home pages of these sites as the social media pages do not exist as yet.
 
 #### 3. The Shop Page
 This page is divided into 5 parts:
 #### The Navigation Bar:
-- The Navigation Bar ("Nav") sits atop this page. Contained in this bar, from left-to-right, are:
+- The Navigation Bar ('Nav') sits atop this page. Contained in this bar, from left-to-right, are:
     - a. The site's logo
-    - b. Links to the other pages in the site i.e. Home and "Gallery". Clicking on these links will bring you directly to the page, but in the same browser.
+    - b. Links to the other pages in the site i.e. Home and Gallery. Clicking on these links will bring you directly to the page, but in the same browser.
     - c. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
 #### Price List per Product
 - This is a table listing the prices for each product currently for sale. It will be broken down into category (e.g. Crochet, Knitwear, Cross-stitch, etc) and the type of product (e.g. Blanket, scarf, stitch-work, etc)
@@ -115,7 +115,7 @@ This page is divided into 5 parts:
 #### The Footer Section:
 - This bar sits at the bottom of the page. Contained in this bar, from left-to-right, are:
     - a. Contact Details - the address & contact no. of the business (for the purposes of MS1, this will be dummy values)
-    - b. A "Join/Sign In" button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
+    - b. A 'Join/Sign In' button - the owner wishes to invite the user to subscribe to the site in order to be kept updated on new products, services, etc. Clicking on this button produces a pop-up form, requesting the user's ID (their email address) and password. In the case of new users, they will be invited to choose a password in addition to their email address.
     - c. Social Media Links - links through to the Facebook, Instagram, Twitter & Pinterest pages for the business. For the purposes of MS1, these will be links to the home pages of these sites as the social media pages do not exist as yet.
 
 ### Features to be implemented in future:
@@ -330,8 +330,7 @@ This page is divided into 5 parts:
      To get past this, I cut the code out into a word document, deleted anything (hidden or visible) in the code, then pasted back in the code. I then cleared the cache before refreshing and the spaces had left.
 
 * Bug: A space appearing between the Price List Header & Table on the Shop page. 
-* Fix: Using Developer Tool, a 'hr' tag can been seen between the two. However on the code, this does not appear. I attempted to remove the tag in a similar fashion to the second Bug above, but this did not resolve it.
-     Following the advice of Daisy McGirr in the Slack community, I simply added a 'hr' function to my CSS file and styled it to remove margins, etc and set the 'display' to 'none'. then adjusted the width of the Price Header element to match the table.  
+* Fix: Using Developer Tool, a 'hr' tag can been seen between the two. However on the code, this does not appear. I attempted to remove the tag in a similar fashion to the second Bug above, but this did not resolve it. Following the advice of Daisy McGirr in the Slack community, I simply added a 'hr' function to my CSS file and styled it to remove margins, etc and set the 'display' to 'none'. then adjusted the width of the Price Header element to match the table.  
 
 * Bug: Navbar links not being coloured as the other text in the navbar & footers.
 * Fix: I had incorrectly targeted this part of the navbar code in my CSS code - Developer Tools was able to point out exactly the element that I needed to target to style correctly.
